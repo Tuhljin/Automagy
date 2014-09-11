@@ -49,6 +49,7 @@ tile.blockEntitySignal.name=Signum Entia
 tile.blockEssentiaLocus.name=Essentia Locus
 tile.blockInventarium.name=Inventarium Core
 tile.blockUnseenScribe.name=Unseen Scribe
+tile.blockGolemWorkbench.name=Golem's Workbench
 
 # Research
 tc.research_category.AUTOMAGY=Automagy
@@ -205,6 +206,10 @@ Automagy.research_page.INVENTARIUM.2=The Inventarium itself doesn't contain any 
 Automagy.research_page.INVENTARIUM.3=The first inventory found in front of the device sets this type. Containers to be included must be within a 7x7x7 area centered on the Scribe.<BR>Note that each Unseen Scribe requires a steady supply of §7Ordo§0 provided by vis relays to remain operational.<LINE>The maximum number of Unseen Scribes allowed per Inventarium Core starts at one. Each order crystal cluster placed in a 7x7x7 area centered on the core increases this by one. Each cluster also increases the distance which a Scribe can be from the core.<BR>Each bookshelf in the area
 Automagy.research_page.INVENTARIUM.4=contributes 81 slots to the maximum number of inventory slots that the Inventarium can cover. (That's 3 standard chests per bookshelf.)<BR>To link a Scribe to the Inventarium Core, simply right-click on the Unseen Scribe with your wand. The core must be within 10 blocks (with 8 additional blocks allowed per order cluster).
 
+Automagy.research_name.GOLEMWORKBENCH=Golem's Workbench
+Automagy.research_text.GOLEMWORKBENCH=Some assembly required?
+Automagy.research_page.GOLEMWORKBENCH.1=The golem's workbench allows you to lay out a pattern and crafting instructions with enough magical aid that even a golem could follow them. Well, an advanced golem, anyway.<BR>Once the recipe is specified using the first nine slots, provide the materials to be used in the bottom slots. Then, place an advanced golem with the §lEmpty§r golem animation core so it is attached to the workbench and instruct the golem to only take the item you want it to craft. Use the golemancer's bell to tell the golem where to place the new items.<BR>Note that only recipes that can be completed on a standard crafting table will work here. Even your most
+Automagy.research_page.GOLEMWORKBENCH.2=advanced golems are unable to grasp the thaumic fundamentals needed to wield vis. Something tells you this may be for the best.<BR>To keep the golem on task and as efficient as possible, a jar of §8Fabrico§r essentia can be kept nearby. This is optional and is primarily beneficial when crafting will be fairly constant as your golems may become a bit "lethargic" after prolonged time spent crafting. Slackers.
 
 
 # Chat messages
