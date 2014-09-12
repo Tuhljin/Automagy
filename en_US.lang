@@ -214,7 +214,7 @@ Automagy.research_page.GOLEMWORKBENCH.2=advanced golems are unable to grasp the 
 
 # Chat messages
 Automagy.chat.newVersionAvailable=Automagy v%s is now available. (You are running v%s.)
-Automagy.chat.newVersionLink=["Click ",{"text":"§nthis link§r","color":"aqua","hoverEvent":{"action":"show_text","value":{"text":"Click to go to Automagy's webpage","color":"aqua"}},"clickEvent":{"action":"open_url","value":"http://everburningtorch.com/minecraft/automagy/"}}," for more info and downloads."]
+Automagy.chat.newVersionLink=["Click ",{"text":"[this link]","color":"aqua","hoverEvent":{"action":"show_text","value":{"text":"Click to go to Automagy's webpage","color":"aqua"}},"clickEvent":{"action":"open_url","value":"http://everburningtorch.com/minecraft/automagy/"}}," for more info and downloads."]
 Automagy.chat.redcrystalDim.setCap=Redstone signal strength cap set to %s.
 Automagy.chat.redcrystalDense.setMin=Redstone signal strength minimum set to %s.
 Automagy.chat.remoteComparator.itemUnlinked=You must link that item to a location before placing it here.
