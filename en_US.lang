@@ -46,6 +46,9 @@ tile.blockPhenomenon.name=Phenomenon
 tile.blockTally.name=Tally Box
 tile.blockGolemInhibitor.name=Golemic Inhibitor
 tile.blockEntitySignal.name=Signum Entia
+tile.blockThaumostaticSpire.name=Thaumostatic Spire
+tile.blockThaumostaticPylon.0.name=Thaumostatic Pylon
+tile.blockThaumostaticPylon.1.name=Thaumostatic Controller
 tile.blockEssentiaLocus.name=Essentia Locus
 tile.blockInventarium.name=Inventarium Core
 tile.blockUnseenScribe.name=Unseen Scribe
@@ -154,10 +157,6 @@ Automagy.research_text.TALLYBLOCK=It's all about the numbers
 Automagy.research_page.TALLYBLOCK.1=Knowing how full a chest is is all well and good, but often what you really want to keep track of is how many of a given thing you've got in there. To that end, you've designed the Tally Box.<BR>Simply place it such that it points at a container (similar to placing a hopper). Next, fill out a runic whitelist or blacklist and place it inside the box. It will emit a redstone signal when the conditions you specify are met. The signal is output in the direction opposite from the target container.<BR>Alternatively, place a §lremote comparator§r above the box, attune a crystalline eye to the inventory
 Automagy.research_page.TALLYBLOCK.2=you want to examine, then place that eye into the comparator. The comparator will cease its normal functions, instead relaying item information for the tally box to act upon.
 
-Automagy.research_name.REFUELINGBELT=Thaumostatic Refueling Belt
-Automagy.research_text.REFUELINGBELT=It's super, man!
-#Automagy.research_text.REFUELINGBELT=For the thaumaturge on the go
-
 Automagy.research_name.HUNGRYMAW=Hungry Maw
 Automagy.research_text.HUNGRYMAW=All mouth, no stomach
 Automagy.research_page.HUNGRYMAW.1=You've formulated a procedure that extracts the gluttonous drive of the hungry chest and binds it to portable holes which you can place on other containers. Any item that touches or passes close enough to a hungry maw will be placed into the inventory associated with the side of the block to which the maw is attached.<BR>To begin, an obsidian block must be placed above a hungry chest. Up to three additional obsidian blocks may be placed next to the chest (but there is no benefit to having one below it). Finally, right-click on the block above the chest using a wand that has the portable hole focus equipped.
@@ -193,6 +192,14 @@ Automagy.research_text.ENTITYSIGNAL=Counting sheep
 Automagy.research_page.ENTITYSIGNAL.1=A method of counting creatures and other entities in an area would be useful for many things, and a crystalline brain fortified with §2Terra§0 - with its affinity to both Life §rmagic and the building blocks of the corporeal - makes the perfect candidate for the job.<BR>This device will emit a redstone signal when entities of a certain type are found in its range. The more there are, the stronger the signal (up to 15). You can limit the count to include only adult animals, or only children, when applicable.<BR>The area examined by the device is determined by the blocks around it. If open air or glass is on a side,
 Automagy.research_page.ENTITYSIGNAL.2=then the area will extend in that direction. If, for example, all sides are open like this, then the device will be in the center of the area. If the only open sides are its top, north, and east, then the device will be in the bottom-south-western corner of the area. (Either way, the area's size would be 11x11x11 blocks.)<LINE>§l        §nOculo Anima§r<BR>To allow specification of an entity type, you have modified a crystalline eye such that it can be imprinted with a creature, spirit, or construct's signature traits. Simply right-click on the entity while holding the eye, then insert the attuned eye into the device.
 
+Automagy.research_name.THAUMOSTATICREFUELER=Thaumostatic Spire
+Automagy.research_text.THAUMOSTATICREFUELER=Aerial refueling
+Automagy.research_page.THAUMOSTATICREFUELER.1=As a busy thaumaturge jetting about from place to place, the lengthy routine required to refuel your thaumostatic harness has become quite a nuisance. Now, you have found a better way.<BR>By combining your knowledge of the thaumostatic field and energized nodes, you can use this field to transmit Potentia through the air. Establishing and maintaining the link between a Potentia source and its destination is mentally taxing but a crystalline brain fortified by Aer is well suited to the task.<BR>The §lThaumostatic Spire§r which enables this has several requirements which must be met to
+Automagy.research_page.THAUMOSTATICREFUELER.2=construct it and to keep it functioning.<BR>The first step is to create two §lThaumostatic Pylon§r blocks and a §lThaumostatic Controller§r. A chiseled quartz block and a block of thaumium are also required.<BR>Next, the components must be placed in a suitable location. The chiseled quartz block goes on the bottom and the thaumium block should be on top, with the pylons and controller placed in any order between them (with no gaps). The thaumium block must have empty space above it and an unobstructed view upward to the open sky. Once everything is in place, right-click on the controller with your wand.
+Automagy.research_page.THAUMOSTATICREFUELER.3=The Spire can cover a wide area. Any equipped thaumostatic harness in the area which contains a warded jar will have a steady supply of Potentia provided to it so long as the Spire has any to give and it is powered by §6Aer§0 vis from a relay. Use essentia tubes to connect the §lcontroller§r to the Potentia source.<LINE>The covered area can be increased by feeding the controller a steady supply of Aer essentia. The rate at which Potentia is distributed to harnesses in the area can be increased by piping in Volatus. Both are amplified through the placement of additional pylon blocks in the structure. (No benefit is gained after the structure's sixth pylon.)
+Automagy.research_page.THAUMOSTATICREFUELER.4=Right-click a side of the controller with your wand to change the type of essentia it will accept on that specific side.
+
+
 Automagy.research_name.ESSENTIALOCUS=Essentia Locus
 Automagy.research_text.ESSENTIALOCUS=Controlling the tide
 Automagy.research_page.ESSENTIALOCUS.1=You have plans for a system that will unify and guide the production and distribution of essentia across all your territory. At its heart - or rather, its nerve center - is the Essentia Locus.<BR>The potential of this system is high but its beginnings may seem relatively humble. The locus will simply examine the contents of warded jars and relay the combined total. Still, this is most convenient as a vis reader could use it to react to the essentia total of all your jars, not just one.<BR>Once the key component of the locus is crafted, it must be placed above a water crystal cluster that is above
@@ -227,6 +234,7 @@ Automagy.chat.essentiaLocus.itemLinkedSelf=You cannot point the locus to itself.
 Automagy.chat.unseenScribe.outOfRange=Link failed. There is no Inventarium Core within range.
 Automagy.chat.unseenScribe.noConnectionsLeft=Link failed. All connections are in use.
 Automagy.chat.unseenScribe.alreadyLinked=This has already been linked. (%s, %s, %s)
+Automagy.chat.thaumostaticSpire.setSuction=Set this side to input %s.
 
 # Tooltips
 Automagy.tip.crystalEye.link=Watching %s,%s,%s in %s
