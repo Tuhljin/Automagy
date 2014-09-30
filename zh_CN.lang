@@ -46,6 +46,9 @@ tile.blockPhenomenon.name=奇迹
 tile.blockTally.name=计数盒
 tile.blockGolemInhibitor.name=傀儡抑制器
 tile.blockEntitySignal.name=生物感应器
+tile.blockThaumostaticSpire.name=奥法尖塔
+tile.blockThaumostaticPylon.0.name=奥法能量柱
+tile.blockThaumostaticPylon.1.name=奥法控制器
 tile.blockEssentiaLocus.name=要素聚核
 tile.blockInventarium.name=库存核心
 tile.blockUnseenScribe.name=容器记录桌
@@ -154,10 +157,6 @@ Automagy.research_text.TALLYBLOCK=总共就这么多了
 Automagy.research_page.TALLYBLOCK.1=能了解一个箱子内东西的总量多少的确不错,但事实上你更想知道特定的东西有多少.循着这个想法,你最终设计出了计数盒.<BR>将它对着一个容器放置(类似放置漏斗).然后向其中放入一张符文白名单或黑名单.它就会根据你指定的条件来输出红石信号.信号会从计数盒的后方输出.<BR>A你也可以将一个§l远程比较器§r放在盒子顶部,设置好水晶之眼,
 Automagy.research_page.TALLYBLOCK.2=再放入比较器.比较器就会终止其原本的功能,成为向计数盒传递物品信息的媒介.
 
-Automagy.research_name.REFUELINGBELT=Thaumostatic Refueling Belt
-Automagy.research_text.REFUELINGBELT=这就是超..人!
-#Automagy.research_text.REFUELINGBELT=For the thaumaturge on the go
-
 Automagy.research_name.HUNGRYMAW=饕餮之口
 Automagy.research_text.HUNGRYMAW=有口无胃
 Automagy.research_page.HUNGRYMAW.1=你将饕餮箱子的能力提取出来并用在了一种能装在其他容器的洞上.触碰到饕餮之口或是离得近的任何物品都会被吸入它所附着的容器中.<BR>开始时,先将一个黑曜石放在饕餮箱子上方.然后将另三个黑曜石放置在箱子侧面(不需要在箱子下方放置).最后,用装有便携式洞穴核心的法杖右击箱子上的方块.
@@ -193,6 +192,14 @@ Automagy.research_text.ENTITYSIGNAL=一只羊,两只羊,三只羊.
 Automagy.research_page.ENTITYSIGNAL.1=如果能数清楚一片区域内的生物和实体数想必会很有用,用§2Terra§0要素强化过的水晶之脑便能做到这一点-它兼有对生命§r魔力与建筑方块物质的亲和力-使它更能胜任这一工作.<BR>当它所能感应范围内存在指定实体时,它就能输出红石信号.数量越多,信号越强(最强为15).你也可以将它设定为只计算成年动物,或幼年动物.<BR>设备所检验的区域由周围的方块所决定.如果一侧有空气或草,
 Automagy.research_page.ENTITYSIGNAL.2=那么该方向的检测范围就会增大一些.而如果所有的方向都是开阔的,设备就会处在检测区域的中心.如果仅有顶,北,东是开阔的,设备就会处在检测区域底部的西南角上.(默认的区域大小是11x11x11的范围.)<LINE>§l        §n兽灵之眼§r<BR>你想要指定实体的种类,便利用现有的水晶之眼做了些改进,使其能记忆一种生物,它的灵魂,或是形态特征.手持它右击生物就能记忆,之后将兽灵之眼放入设备即可.
 
+Automagy.research_name.THAUMOSTATICREFUELER=奥法尖塔
+Automagy.research_text.THAUMOSTATICREFUELER=飞行补给站
+Automagy.research_page.THAUMOSTATICREFUELER.1=作为一名在各地间忙于飞行的神秘使,漫长的路途也需要给奥法缰绳提供充足的补给,这太麻烦了.现在,你有了更好的方法.<BR>通过结合你在神秘学领域与产能节点的知识,你可以将其运用到通过隔空传输Potentia要素源质上.在源质源头与目标对象之间建立并维持连接会让你疲惫不堪,但注入了风要素的水晶之脑更能胜任这项工作.<BR>用其搭建的§l奥法尖塔§r在建造时也需要满足一些条件才能生效.
+Automagy.research_page.THAUMOSTATICREFUELER.2=<BR>首先需要制作2个§l奥法能量柱§r方块和1个§l奥法控制器§r.还需要1个錾制石英块和1个神秘块.<BR>然后,各个部件必须正确放置.錾制石英块在底部,神秘块在顶部,能量柱和控制器在两者之间随意顺序摆放(无间隔).神秘块上方必须有空间使其能直视天空.所有的部分都摆放完毕后,用你的法杖右击控制器.
+Automagy.research_page.THAUMOSTATICREFUELER.3=尖塔可以作用在很大一片区域内.只要尖塔有足够的源质并且有§6Aer§0魔力的驱动,范围内任何装备着且装有罐子的奥法缰绳都会有稳定供应的Potentia要素源质.用源质管道连接到§l控制器§r来提供Potentia要素源质.<LINE>有效范围可通过向控制器稳定供应Aer要素源质来扩大.补充Potentia源质的速率则可以通过给其输入Volatus源质来提升.结构中的添加能量柱可以同时增大范围与速率.(最多6个能量柱,多余的不会有增益效果.)
+Automagy.research_page.THAUMOSTATICREFUELER.4=用法杖右击控制器的一侧即可改变该侧可接收的要素源质类型.
+
+
 Automagy.research_name.ESSENTIALOCUS=要素聚核
 Automagy.research_text.ESSENTIALOCUS=潮起潮落
 Automagy.research_page.ESSENTIALOCUS.1=你计划着制作一个统一检测要素制造与分配的系统.而它的核心-或者叫神经中枢-就是要素聚核.<BR>这个系统有很大的潜力但它的起点却比较简单.聚核会检测要素罐子的内容物然后根据综合情况转化为红石信号.尽管如此,作为要素读取器来使用的话它可以方便地反映出所有罐子的源质总量,而不是单个.<BR>首先需要制作出聚核的关键组件,它需要放置在水之魔晶的上方,而水之魔晶要放在一个青金石块的上方.
@@ -227,6 +234,7 @@ Automagy.chat.essentiaLocus.itemLinkedSelf=你无法将聚核连至其本身.
 Automagy.chat.unseenScribe.outOfRange=连接失败.有效范围内无库存核心.
 Automagy.chat.unseenScribe.noConnectionsLeft=连接失败.全部连接占用中.
 Automagy.chat.unseenScribe.alreadyLinked=已成功连接. (%s, %s, %s)
+Automagy.chat.thaumostaticSpire.setSuction=该侧设为输入%s要素源质.
 
 # Tooltips
 Automagy.tip.crystalEye.link=目标在 %s,%s,%s 位于 %s
