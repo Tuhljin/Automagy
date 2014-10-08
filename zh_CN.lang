@@ -53,6 +53,8 @@ tile.blockEssentiaLocus.name=要素聚核
 tile.blockInventarium.name=库存核心
 tile.blockUnseenScribe.name=容器记录桌
 tile.blockGolemWorkbench.name=傀儡工作台
+tile.blockThirstyTank.name=渴饮储罐
+tile.blockCreativeJar.3.name=无尽之罐
 
 # Research
 tc.research_category.AUTOMAGY=自动化魔法
@@ -121,6 +123,11 @@ Automagy.research_page.GREEDYCHEST.ENCHANTEDPAPER=§l      §n附魔纸§r<BR>�
 Automagy.research_name.ENCHANTEDPAPER=附魔纸
 Automagy.research_text.ENCHANTEDPAPER=规章条文
 Automagy.research_page.ENCHANTEDPAPER.1=有时手写的指令并不能完全表达你想的东西...尤其是在你需要魔法时.<BR>通过向普通的纸中注入魔力并印上金色的符文,你就能做出让你的设备按你所想而执行工作的附魔纸.<BR>最平常的用途就是用来制作白名单和黑名单,它们用于指示奥术设备如贪婪箱子所能"看见"的物品.
+
+Automagy.research_name.THIRSTYTANK=渴饮储罐
+Automagy.research_text.THIRSTYTANK=无法抑制的冲动
+Automagy.research_page.THIRSTYTANK.1=在原有的基础上稍加改动,驱使着饕餮箱子的饥饿之魔力也能让一个特制的储罐"吸取"与其接触的液体.<BR>只有能被桶装起的液体才能被吞入,但即便是流动的液体也能让它有所反应.储罐能吸收从目标方块到本体之间相连的同种液体.这样一来,不需要移动储罐就能吸收完一个小池塘.<BR>液体也能通过一般的方法来输入或输出储罐,
+Automagy.research_page.THIRSTYTANK.2=比如用桶或特定的傀儡.<BR>如果紧邻水源方块放置,它能无限地从中吸水.
 
 Automagy.research_name.AVARICIOUS=贪婪之物
 Automagy.research_text.AVARICIOUS=为了乐趣和利益
@@ -205,6 +212,7 @@ Automagy.research_text.ESSENTIALOCUS=潮起潮落
 Automagy.research_page.ESSENTIALOCUS.1=你计划着制作一个统一检测要素制造与分配的系统.而它的核心-或者叫神经中枢-就是要素聚核.<BR>这个系统有很大的潜力但它的起点却比较简单.聚核会检测要素罐子的内容物然后根据综合情况转化为红石信号.尽管如此,作为要素读取器来使用的话它可以方便地反映出所有罐子的源质总量,而不是单个.<BR>首先需要制作出聚核的关键组件,它需要放置在水之魔晶的上方,而水之魔晶要放在一个青金石块的上方.
 Automagy.research_page.ESSENTIALOCUS.2=青金石块周围要有水环绕着,水池则要用银树木板圈起.<BR>要素聚核必须最后放置.<BR>建成聚核后,用水晶之眼来指定要素罐子.一个水晶之眼可以指向多个罐子:任何与初始位置相邻的以及用类似方式相连接的罐子均会被检测.用设定好的眼睛右击聚核来使用.空手右击则会移除已有的水晶之眼.<BR>通常来说,最多可以检测12个罐子,使用一个水晶之眼.
 Automagy.research_page.ESSENTIALOCUS.3=在多方块结构里,若银树木板上放置了水之魔晶则会增加上限.每个增加8个罐子以及1个水晶之眼的上限.每个魔晶也会增加一组罐子离聚核最远的有效距离.<BR>注意尽管要素读取器不能直接放置在要素聚核方块的下方,放置在多方块结构中的水方块的下方也是有效的,你也可以使用远程比较器来读取要素信息.
+Automagy.research_page.ESSENTIALOCUS.ESSENTIARESERVOIR=§l     §n要素库§r<BR>你发现要素聚核能像对罐子那样获取一个要素库的总量.甚至不需多加校正.你觉得这一天一定会来的.有志者事竟成!
 
 Automagy.research_name.INVENTARIUM=库存管理
 Automagy.research_text.INVENTARIUM=为了这些储藏物
@@ -245,7 +253,8 @@ Automagy.tip.blockEntitySignal.desc=实体传感器(信号)
 Automagy.tip.redcrystalMerc.link=连接至 %s,%s,%s 位于 %s
 Automagy.tip.golemLinker.linkToBlock=连接至 %s
 Automagy.tip.foodstuff.0=这不像是个明智的选择.
-
+Automagy.tip.tankFluidData=%s / %s mB %s
+Automagy.tip.creativeModeOnly=仅限创造模式
 # GUI
 Automagy.gui.visReader.mode.col=模式
 Automagy.gui.visReader.mode.0=禁用
@@ -345,3 +354,5 @@ wailaTip.hourglassTimerCountdown=         %s:%s 剩余
 wailaTip.golemInhibitorMatchOmit=模式:忽略连接傀儡
 wailaTip.golemInhibitorMatchExclusive=模式:仅连接傀儡
 wailaTip.golem.linkedBlock=连接至%s于%s
+wailaTip.tankFluidData=%s / %s mB %s
+wailaTip.tankFluidDataEmpty=0 / %s mB
