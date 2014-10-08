@@ -53,6 +53,8 @@ tile.blockEssentiaLocus.name=Essentia Locus
 tile.blockInventarium.name=Inventarium Core
 tile.blockUnseenScribe.name=Unseen Scribe
 tile.blockGolemWorkbench.name=Golem's Workbench
+tile.blockThirstyTank.name=Thirsty Tank
+tile.blockCreativeJar.3.name=Infinity Jar
 
 # Research
 tc.research_category.AUTOMAGY=Automagy
@@ -121,6 +123,11 @@ Automagy.research_page.GREEDYCHEST.ENCHANTEDPAPER=§l      §nEnchanted Paper§r
 Automagy.research_name.ENCHANTEDPAPER=Enchanted Paper
 Automagy.research_text.ENCHANTEDPAPER=The letter of the law
 Automagy.research_page.ENCHANTEDPAPER.1=There are times when written instructions simply don't carry the weight you desire... especially when what you desire is the weight of magical force.<BR>By infusing ordinary paper with vis and preparing a pliable inlay of golden runes, you are now able to produce enchanted paper that can help enforce your will upon your creations.<BR>A common use of enchanted paper is to create whitelists and blacklists which can be used to dictate what is "seen" by thaumic devices such as the greedy chest.
+
+Automagy.research_name.THIRSTYTANK=Thirsty Tank
+Automagy.research_text.THIRSTYTANK=Unquenchable
+Automagy.research_page.THIRSTYTANK.1=With a few modifications, the magical hunger that drives the hungry chest becomes a thirst that causes a specially constructed tank to "drink" liquids that come into contact with it.<BR>Only fluid blocks that can be picked up by a bucket can be swallowed, but even flowing liquid can cause a reaction. The tank can take fluids from the world at some distance provided there is an unbroken chain of the same type leading from the tank to the target block. In this way, small pools can be consumed without moving the tank.<BR>Liquids can also be added or removed from the tank in the
+Automagy.research_page.THIRSTYTANK.2=standard fashion, such as by buckets or certain golems.<BR>If placed next to a water source block, the tank can draw water from it indefinitely.
 
 Automagy.research_name.AVARICIOUS=Structured Avarice
 Automagy.research_text.AVARICIOUS=For Fun and Profit
@@ -205,6 +212,7 @@ Automagy.research_text.ESSENTIALOCUS=Controlling the tide
 Automagy.research_page.ESSENTIALOCUS.1=You have plans for a system that will unify and guide the production and distribution of essentia across all your territory. At its heart - or rather, its nerve center - is the Essentia Locus.<BR>The potential of this system is high but its beginnings may seem relatively humble. The locus will simply examine the contents of warded jars and relay the combined total. Still, this is most convenient as a vis reader could use it to react to the essentia total of all your jars, not just one.<BR>Once the key component of the locus is crafted, it must be placed above a water crystal cluster that is above
 Automagy.research_page.ESSENTIALOCUS.2=a block of lapis lazuli. The lapis should be encircled by water and the water should be contained on the sides by silverwood planks.<BR>The Essentia Locus block must be placed last.<BR>Once the locus is established, specify warded jars using crystalline eyes. A single eye can point to multiple jars: Any jars adjacent to the first's location and all similarly connected jars will be considered. Right-click on the locus with an attuned eye to put it to use. Right-click with an empty hand to remove a crystalline eye.<BR>Normally, a maximum of twelve jars can be examined and only one crystalline eye can be used. Placing
 Automagy.research_page.ESSENTIALOCUS.3=water crystal clusters adjacent to the silverwood planks of the construct increases this by eight jars and one eye per cluster. Each cluster also increases the maximum distance a group of jars can be from the locus.<BR>Note that while a vis reader cannot be placed directly beneath the essentia locus block itself, one placed under any of the structure's water blocks will function and additional readers can be set up using remote comparators.
+Automagy.research_page.ESSENTIALOCUS.ESSENTIARESERVOIR=§l     §nEssentia Reservoir§r<BR>You have found that the Essentia Locus is capable of obtaining essentia totals from an essentia reservoir similar to how it does so from warded jars. It didn't even take any additional calibration. You must have seen this day coming. Truly your genius knows no limits!
 
 Automagy.research_name.INVENTARIUM=Inventarium
 Automagy.research_text.INVENTARIUM=For the hoard
@@ -245,6 +253,8 @@ Automagy.tip.blockEntitySignal.desc=Entity Sensor (Signal)
 Automagy.tip.redcrystalMerc.link=Linked to %s,%s,%s in %s
 Automagy.tip.golemLinker.linkToBlock=Linking to %s
 Automagy.tip.foodstuff.0=This doesn't seem wise.
+Automagy.tip.tankFluidData=%s / %s mB of %s
+Automagy.tip.creativeModeOnly=Creative Mode Only
 
 # GUI
 Automagy.gui.visReader.mode.col=Mode
@@ -345,3 +355,6 @@ wailaTip.hourglassTimerCountdown=         %s:%s remaining
 wailaTip.golemInhibitorMatchOmit=Mode : Omit Linked Golems
 wailaTip.golemInhibitorMatchExclusive=Mode : Linked Golems Only
 wailaTip.golem.linkedBlock=Linked to %s at %s
+wailaTip.tankFluidData=%s / %s mB of %s
+wailaTip.tankFluidDataEmpty=0 / %s mB
+
