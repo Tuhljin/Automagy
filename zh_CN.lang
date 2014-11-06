@@ -162,7 +162,7 @@ Automagy.research_page.VISREADER.ESSENTIALOCUS=§l       §n要素聚核§r<BR>�
 Automagy.research_name.TALLYBLOCK=计数盒
 Automagy.research_text.TALLYBLOCK=总共就这么多了
 Automagy.research_page.TALLYBLOCK.1=能了解一个箱子内东西的总量多少的确不错,但事实上你更想知道特定的东西有多少.循着这个想法,你最终设计出了计数盒.<BR>将它对着一个容器放置(类似放置漏斗).然后向其中放入一张符文白名单或黑名单.它就会根据你指定的条件来输出红石信号.信号会从计数盒的后方输出.<BR>A你也可以将一个§l远程比较器§r放在盒子顶部,设置好水晶之眼,
-Automagy.research_page.TALLYBLOCK.2=再放入比较器.比较器就会终止其原本的功能,成为向计数盒传递物品信息的媒介.
+Automagy.research_page.TALLYBLOCK.2=再放入比较器.比较器就会终止其原本的功能,成为向计数盒传递物品信息的媒介.<BR>如果一个计数盒读取的是另一个计数盒,那么信息就会从第二个计数盒的目标获取.如果它的目标还是一个计数盒,那么它就会转运它目标的信息,以此类推.通过这种方法链接计数盒以及远程比较器,就能从很远的距离外读取容器信息.
 
 Automagy.research_name.HUNGRYMAW=饕餮之口
 Automagy.research_text.HUNGRYMAW=有口无胃
