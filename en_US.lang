@@ -244,7 +244,18 @@ Automagy.research_page.NETHERMIND.2=with how they are created.<BR>Some manner of
 Automagy.research_page.NETHERMIND.3=Once the runes are arranged, tap the Nethermind block with your wand. You can tap it again to turn the device off, but it costs vis from your wand every time it is started.<BR>To function, the Nethermind must be powered by §cIgnis§0 vis supplied by a relay. It also needs warded jars nearby from which it can pull essentia. The type and quantity of essentia needed is determined by the runes at work. Basic runed obsidian requires only Ignis and Terra.<BR>Blocks conjured from Netherstuff will appear in a 9x9x9 area two blocks below the structure.
 Automagy.research_page.NETHERMIND.4=§l    §nRuned Obsidian (Rock)§r<BR>Use this rune to increase the chance that netherrack will be generated. If at least four block-specifying runes like this are in place, then only the blocks they specify will be generated. The more runes tied to a given block, the more likely that block will be created. (So if four of a single type are used, then the chance is 100%%.)<BR>Another advantage of using this rune is that generating netherrack with it requires less essentia than doing so using basic runes. (Placing additional Rock runes does not further decrease the cost.)<BR>Cost per generation: %s.
 Automagy.research_page.NETHERMIND.5=§l    §nRuned Obsidian (Sea)§r<BR>Use this rune to increase the chance that lava will be generated. As with other block-specifying runes, having at least four of them means only the specified blocks will be generated.<BR>Cost per generation: %s.
-# stability
+
+Automagy.research_name.NETHERRUNE_CRYSTAL=Runed Obsidian: Crystal
+Automagy.research_text.NETHERRUNE_CRYSTAL=Quarzum infernales
+Automagy.research_page.NETHERRUNE_CRYSTAL.1=By placing this rune in the Nethermind structure, nether quartz can be generated. As with other block-specifying runes, having at least four of them means only the specified blocks will be generated.<BR>Cost per generation: %s.
+
+Automagy.research_name.NETHERRUNE_SOUL=Runed Obsidian: Soul
+Automagy.research_text.NETHERRUNE_SOUL=The wailing is normal
+Automagy.research_page.NETHERRUNE_SOUL.1=By placing this rune in the Nethermind structure, soul sand can be generated. As with other block-specifying runes, having at least four of them means only the specified blocks will be generated.<BR>Cost per generation: %s.
+
+Automagy.research_name.NETHERRUNE_CELERITY=Runed Obsidian: Celerity
+Automagy.research_text.NETHERRUNE_CELERITY=Fan the flames
+Automagy.research_page.NETHERRUNE_CELERITY.1=If you replace some basic runed obsidian of the Nethermind structure with runes of Celerity, the time required to conjure blocks will be reduced. The maximum benefit is reached at twelve runes.<BR>Additionally, each of the first four Celerity runes in the structure reduce the time it takes for the Nethermind to consume essentia, speeding up the process even further.
 
 Automagy.research_name.GOLEMWORKBENCH=Golem's Workbench
 Automagy.research_text.GOLEMWORKBENCH=Some assembly required?
