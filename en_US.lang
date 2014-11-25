@@ -71,6 +71,10 @@ tile.blockNetherRune.10.name=Runed Obsidian (Crystal)
 tile.blockNetherRune.11.name=Runed Obsidian (Light)
 tile.blockNetherRune.12.name=Runed Obsidian (Soul)
 tile.blockNetherRune.13.name=Runed Obsidian (Pebble)
+tile.blockAmnesiac.name=Amnesiac's Stone
+
+# Entities
+entity.Automagy.XPOrbSuppressed.name=Amnesiac's Experience Orb
 
 # Research
 tc.research_category.AUTOMAGY=Automagy
@@ -262,6 +266,11 @@ Automagy.research_text.GOLEMWORKBENCH=Some assembly required?
 Automagy.research_page.GOLEMWORKBENCH.1=The golem's workbench allows you to lay out a pattern and crafting instructions with enough magical aid that even a golem could follow them.<BR>Many recipes are too complicated for your less intelligent golems. An §ladvanced golem§r is required unless the recipe fits in a 2x2 grid or all its components are the same.<BR>Once the recipe is specified using the first nine slots, provide the materials to be used in the bottom slots. Then, place a golem with the §lEmpty§r golem animation core so it is attached to the workbench and instruct the golem to only take the item you want it to craft. Use the golemancer's bell to tell the golem
 Automagy.research_page.GOLEMWORKBENCH.2=where to place the new items.<BR>Note that only recipes that can be completed on a standard crafting table will work here. Even your most advanced golems are unable to grasp the thaumic fundamentals needed to wield vis. Something tells you this may be for the best.<BR>To keep the golem on task and as efficient as possible, a jar of §8Fabrico§0 essentia can be kept nearby. This is optional and is primarily beneficial when crafting will be fairly constant as your golems may become a bit "lethargic" after prolonged time spent crafting. Slackers.
 
+Automagy.research_name.AMNESIASTONE=Amnesiac's Stone
+Automagy.research_text.AMNESIASTONE=Fuhgeddaboudit!
+Automagy.research_page.AMNESIASTONE.1=Your research on suppressing the minds of golems has led you to another interesting use for an Entropy-imbued crystalline brain: Driving memories - experience, shall we say - from the human mind. This may be useful in conjunction with a nearby §lBrain in a Jar§r.<BR>Contact with this stone will quickly drain experience points. A right-click drains one level. Sneaking while clicking drains five. Standing on top of the stone quickly drains all levels.<BR>The stone also has a useful effect on brains in jars. If a jar is placed above it, then a shift-right-click on the jar with an empty hand causes
+Automagy.research_page.AMNESIASTONE.2=all the stored experience to be dropped at once.
+
 
 # Chat messages
 Automagy.chat.newVersionAvailable=Automagy v%s is now available. (You are running v%s.)
@@ -279,6 +288,7 @@ Automagy.chat.unseenScribe.outOfRange=Link failed. There is no Inventarium Core 
 Automagy.chat.unseenScribe.noConnectionsLeft=Link failed. All connections are in use.
 Automagy.chat.unseenScribe.alreadyLinked=This has already been linked. (%s, %s, %s)
 Automagy.chat.thaumostaticSpire.setSuction=Set this side to input %s.
+Automagy.chat.nethermind.yTooLow=The Nethermind cannot be activated so close to the bottom of the world.
 
 # Tooltips
 Automagy.tip.crystalEye.link=Watching %s,%s,%s in %s
