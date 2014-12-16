@@ -26,6 +26,7 @@ item.golemLinker.name=Golem Linking Bell
 item.baubleEnderDisjunction.name=Ring of Ender Disjunction
 item.netherHeart.name=Ember Heart
 item.autoHandMirror.name=Hungry Hand Mirror
+item.creativeTool.0.name=Thinking Cap
 
 # Blocks
 tile.blockTorchInversion.name=Redstone Inversion Torch
@@ -52,6 +53,7 @@ tile.blockThaumostaticSpire.name=Thaumostatic Spire
 tile.blockThaumostaticPylon.0.name=Thaumostatic Pylon
 tile.blockThaumostaticPylon.1.name=Thaumostatic Controller
 tile.blockEssentiaLocus.name=Essentia Locus
+tile.blockEssentiaLocusAggregator.name=Essentia Aggregator
 tile.blockInventarium.name=Inventarium Core
 tile.blockUnseenScribe.name=Unseen Scribe
 tile.blockGolemWorkbench.name=Golem's Workbench
@@ -243,6 +245,12 @@ Automagy.research_page.ESSENTIALOCUS.2=a block of lapis lazuli. The lapis should
 Automagy.research_page.ESSENTIALOCUS.3=water crystal clusters adjacent to the silverwood planks of the construct increases this by eight jars and one eye per cluster. Each cluster also increases the maximum distance a group of jars can be from the locus.<BR>Note that while a vis reader cannot be placed directly beneath the essentia locus block itself, one placed under any of the structure's water blocks will function and additional readers can be set up using remote comparators.
 Automagy.research_page.ESSENTIALOCUS.ESSENTIARESERVOIR=§l     §nEssentia Reservoir§r<BR>You have found that the Essentia Locus is capable of obtaining essentia totals from an essentia reservoir similar to how it does so from warded jars. It didn't even take any additional calibration. You must have seen this day coming. Truly your genius knows no limits!
 
+Automagy.research_name.ESSENTIALOCUSAGGREGATOR=Essentia Aggregator
+Automagy.research_text.ESSENTIALOCUSAGGREGATOR=Streamlining distribution
+Automagy.research_page.ESSENTIALOCUSAGGREGATOR.1=Once you have established your Essentia Locus and pointed it to your vast collection of jars, it becomes time to convert your centralized essentia counting system into a distribution hub.<BR>A locus with an Essentia Aggregator placed directly beneath it becomes an essentia source for any §lessentia mirrors§r in the vicinity (as well as certain other devices, including the Runic Matrix). Essentia drawn from the locus is pulled from valid containers (e.g. warded jars) that are being monitored by the locus.<BR>This gives you a central location to count essentia, place mirrors, and
+Automagy.research_page.ESSENTIALOCUSAGGREGATOR.2=perform infusions, but you believe there is still more you could do with the locus in the future.
+# Special delivery
+
 Automagy.research_name.INVENTARIUM=Inventarium
 Automagy.research_text.INVENTARIUM=For the hoard
 Automagy.research_page.INVENTARIUM.1=The more stuff you have, the more difficult it is to keep track of. The tally box is of limited use when what it's looking for could be found in one of several different chests, or worse, its numbers spread across multiple chests. What you'd need is a centralized storage-tracking system. From this need springs the Inventarium.<BR>To function, the core of the Inventarium must be placed above an order crystal cluster that is itself above a block of amber or amber bricks. Bookshelves arranged as indicated on the following pages are also required.<BR>The core must be placed last.
@@ -284,7 +292,8 @@ Automagy.research_name.MOBLURE=Siren's Lure
 Automagy.research_text.MOBLURE=Burning desire
 Automagy.research_page.MOBLURE.1=While researching runes to use with the Nethermind, another property of the Ignis-imbued crystalline brain has come to light. When its energy is directed at the minds of creatures around it, it can instill certain powerful emotions.<BR>With this knowledge, you have created a device that draws nearby creatures toward itself. The awe and passion it instills blinds them to all else, including their surroundings - even when those surroundings include a sudden drop from great heights.<BR>Although runed obsidian is used in its construction, the result is something fundamentally different
 Automagy.research_page.MOBLURE.2=and cannot be used as part of a Nethermind structure. In fact, on its own, none of the obsidian you've worked with so far is up to par with what you'd need here. Fortunately, the ancients have left some of their handiwork behind.<BR>To function, the Lure must be placed as part of a vertical line of §lObsidian Totem§r blocks (at least two). Susceptible creatures in a fairly wide horizontal area are affected but the vertical area is only as tall as the completed totem (maximum 4 blocks above and 4 below).<BR>The horizontal area covered can be greatly increased if a jar of §4Fames§0 is provided nearby.<BR>Tap the Lure with your §lwand§r to
-Automagy.research_page.MOBLURE.3=activate or deactivate it.<BR>Different creatures react to the siren's call in different ways. Many will simply blindly walk in its direction. Others, such as endermen, appear to become confused and may even struggle to get away when approaching a drop, but this is short-lived. Endermen under its spell may even teleport closer. Your golems and certain powerful entities are completely immune.<BR>The Lure won't hold a creature's attention indefinitely. If it is unable to get closer to the Lure for a period of time, then the affect may wear off, at which point it may take some time for it to be applied to that specific creature again. Lastly, creatures that are engaged in combat are often able to shrug off the call.
+Automagy.research_page.MOBLURE.3=activate or deactivate it.<BR>Different creatures react to the siren's call in different ways. Many will simply blindly walk in its direction. Others, such as endermen, appear to become confused and may even struggle to get away when approaching a drop, but this is short-lived. Endermen under its spell may even teleport closer. Your golems and certain powerful entities are completely immune.<BR>The Lure won't hold a creature's attention indefinitely. If it is unable to get closer to the Lure for a period of time, then the effect may wear off, at which point it may take some time for it to be applied to that specific creature again. Lastly, creatures that are engaged in combat
+Automagy.research_page.MOBLURE.4=are often able to shrug off the call.<BR>If multiple Lures are in range of a creature, then the one with the strongest lure will be the creature's primary target. The taller the totem, the stronger the lure.
 
 # Chat messages
 Automagy.chat.newVersionAvailable=Automagy v%s is now available. (You are running v%s.)
@@ -316,6 +325,7 @@ Automagy.tip.golemLinker.linkToBlock=Linking to %s
 Automagy.tip.foodstuff.0=This doesn't seem wise.
 Automagy.tip.tankFluidData=%s / %s mB of %s
 Automagy.tip.creativeModeOnly=Creative Mode Only
+Automagy.tip.creativeTool.0=Usage: Craft with a golem
 
 # GUI
 Automagy.gui.visReader.mode.col=Mode
