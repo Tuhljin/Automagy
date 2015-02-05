@@ -24,7 +24,8 @@ item.horizontal.0.name=Shattered Avarice Pearl
 item.edible.0.name=Mercatus Amalgam
 item.foodstuff.0.name=Vishroom Stew
 item.golemLinker.name=Golem Linking Bell
-item.baubleEnderDisjunction.name=Ring of Ender Disjunction
+item.baubleEnderDisjunction.0.name=Ring of Ender Disjunction
+item.baubleEnderDisjunction.1.name=Lesser Ring of Ender Disjunction
 item.netherHeart.name=Ember Heart
 item.autoHandMirror.name=Hungry Hand Mirror
 item.creativeTool.0.name=Thinking Cap
@@ -57,6 +58,12 @@ tile.blockEssentiaLocus.name=Essentia Locus
 tile.blockEssentiaLocusAggregator.name=Essentia Aggregator
 tile.blockInventarium.name=Inventarium Core
 tile.blockUnseenScribe.name=Unseen Scribe
+tile.blockBookshelfEnchanted.0.name=Enchanting Bookshelf
+tile.blockBookshelfEnchanted.1.name=Ensorcelled Bookshelf
+# tile.blockBookshelfEnchanted.1.name=Mnemonic Bookshelf
+# tile.blockBookshelfEnchanted.2.name=Extradimensional Bookshelf
+tile.blockGolemTaskmaster.name=Golemic Taskmaster
+tile.blockReqTome.name=Requisition Tome
 tile.blockGolemWorkbench.name=Golem's Workbench
 tile.blockThirstyTank.name=Thirsty Tank
 tile.blockCreativeJar.3.name=Infinity Jar
@@ -77,6 +84,10 @@ tile.blockNetherRune.12.name=Runed Obsidian (Soul)
 tile.blockNetherRune.13.name=Runed Obsidian (Pebble)
 tile.blockAmnesiac.name=Amnesiac's Stone
 tile.blockMobLure.name=Siren's Lure
+tile.blockTranslucent.0.name=Glowing Amber
+tile.blockTranslucent.1.name=Glowing Amber Bricks
+tile.blockMetalGlow.0.name=Memory Block
+tile.blockMetalGlow.1.name=Memory Block
 
 # Entities
 entity.Automagy.XPOrbSuppressed.name=Amnesiac's Experience Orb
@@ -100,7 +111,7 @@ Automagy.research_page.SLIVERS_WARDING.1=Slivers of magic can be used in an alte
 Automagy.research_name.REDSTONETHEORY=Redstone Theory
 Automagy.research_text.REDSTONETHEORY=Magic or technology?
 Automagy.research_page.REDSTONETHEORY.1=Redstone possesses many unusual characteristics. Its ability to transmit signals and form "circuits" has led many to believe it is a form of mundane technology. Indeed, redstone powder is the foundation upon which all sorts of technology relies. However, one who is versed in the arcane arts knows that redstone's unique properties are invaluable to all manner of magics, potions perhaps being the most well-known example.<BR>For these reasons, redstone is often viewed as a natural bridge between magic and technology. And so it is, but the thaumaturge knows that it is much more: At the fundamental level, redstone is no mundane material at
-Automagy.research_page.REDSTONETHEORY.2=all. Even when functioning as part of an elaborate circuit or mechanical device, a more careful look reveals that its behavior can be described only as magical.<BR>You aim to take full advantage of this wondrous substance. To this end, you have designed some simple devices to help you better incorporate "redstone logic" into your everyday thaumaturgy.<BR>You are certain that further studies will yield greater inventions. In fact, this may even be the basis of a whole new discipline of thaumaturgy, one focused on allowing a thaumaturge to automate tasks more intelligently. You think you'll call it §5Automagy§0.
+Automagy.research_page.REDSTONETHEORY.2=all. Even when functioning as part of an elaborate circuit or mechanical device, a more careful look reveals that its behavior can be described only as magical.<BR>You aim to take full advantage of this wondrous substance. To this end, you have designed some simple devices to help you better incorporate "redstone logic" into your everyday thaumaturgy.<BR>You are certain that further studies will yield greater and more diverse inventions. In fact, this may even be the basis of a whole new discipline of thaumaturgy, one focused on allowing a thaumaturge to automate tasks more intelligently. You think you'll call it §5Automagy§0.
 Automagy.research_page.REDSTONETHEORY.3=§l  §nRedstone Inversion Torch§r<BR>The redstone torch's ability to invert a redstone signal is very useful but you cannot help but notice that it inverts only in a binary manner. Even the weakest signal that reaches the block the torch is attached to will cause it to turn off, and when it is on, it is always at full strength. But what if you wanted a truly inverted signal? Not just from 15 to 0, but from 10 to 5, from 3 to 12, and so on?<BR>Utilizing basic thaumaturgical principles, you have created a more orderly, less all-or-nothing redstone torch.
 Automagy.research_page.REDSTONETHEORY.4=§l         §nHourglass§r<BR>The redstone hourglass is a simple but versatile device allowing you to regulate the timings of redstone signal transmissions.<BR>When activated (by right-click or redstone signal), the glass turns and sand starts to fall. A redstone pulse is emitted once the sand has settled. If the rear of a redstone comparator is next to the hourglass, it will output a signal which increases in strength as the sand falls.<BR>The hourglass outputs to its left and right sides. It accepts activation signals from any other side.<BR>Right-click the hourglass with your wand or a stick to adjust the timer's
 Automagy.research_page.REDSTONETHEORY.5=length. The timer is quite precise but unfortunately only allows adjustments in five-second increments and peaks out at 60 seconds, but you know this device is only the foundation upon which you will build better things.
@@ -108,7 +119,8 @@ Automagy.research_page.REDSTONETHEORY.5=length. The timer is quite precise but u
 Automagy.research_name.MAGICHOURGLASS=Magic Hourglass
 Automagy.research_text.MAGICHOURGLASS=Mystical timekeeping
 Automagy.research_page.MAGICHOURGLASS.1=The hourglass you designed is useful for delaying signals and producing redstone pulses but is lacking in some areas. Repetition, for one. Also, sometimes you want the timer to start from zero each time the hourglass is activated even if sand was already falling but this is impossible with mundane sand which must flow from where it left off.<BR>To address these flaws, you've enchanted an hourglass with the ability to turn itself over repeatedly and the ability to instantly move its sand to the top (restarting the timer). If you so choose, it can instead move the sand to the bottom, ending the timer early without emitting a signal from the
-Automagy.research_page.MAGICHOURGLASS.2=hourglass (and stopping the loop if it was set to repeat).<BR>Additionally, you can set this hourglass to the new "Alternating" mode which sends a redstone signal 50% of the time rather than only a pulse when the time has elapsed.<BR>Finally, you can fine-tune the timer far better than before and its maximum length far exceeds that of the redstone hourglass. However, you will need to use your wand to do so (by right-click); this is no mere mechanical contraption adjustable by poking a stick into a hole and turning it.
+Automagy.research_page.MAGICHOURGLASS.2=hourglass (and stopping the loop if it was set to repeat).<BR>Additionally, there are several different signal modes. §lPulse§r mode is as standard. §lConstant§r mode means a signal is sent the entire time sand is falling. §lAlternating§r mode is the same except it is sent only 50% of the time. §lNegative Pulse§r mode works as Constant mode except there is a brief period where no signal is sent when the glass turns itself over (if set to repeat). §lDisabled§r means no signal is sent at all.<BR>The hourglass's reaction to receiving a signal (on any side but its left and right) can also be changed. By default, the hourglass flips each time it receives a new signal.
+Automagy.research_page.MAGICHOURGLASS.3=Another option is to have it only run when it is receiving a signal or only run when it isn't. Or it can ignore redstone signals altogether.<BR>Finally, you can fine-tune the timer far better than before and its maximum length far exceeds that of the redstone hourglass. However, you will need to use your wand to do so (by right-click); this is no mere mechanical contraption adjustable by poking a stick into a hole and turning it.
 
 
 Automagy.research_name.REDCRYSTAL=Redcrystal
@@ -148,6 +160,8 @@ Automagy.research_page.GREEDYCHEST.ENCHANTEDPAPER=§l      §nEnchanted Paper§r
 Automagy.research_name.ENCHANTEDPAPER=Enchanted Paper
 Automagy.research_text.ENCHANTEDPAPER=The letter of the law
 Automagy.research_page.ENCHANTEDPAPER.1=There are times when written instructions simply don't carry the weight you desire... especially when what you desire is the weight of magical force.<BR>By infusing ordinary paper with vis and preparing a pliable inlay of golden runes, you are now able to produce enchanted paper that can help enforce your will upon your creations.<BR>A common use of enchanted paper is to create whitelists and blacklists which can be used to dictate what is "seen" by thaumic devices such as the greedy chest.
+Automagy.research_page.ENCHANTEDPAPER.2=§l        §nEnchanting§r<BR>Enchanted paper can also be bound into book form. Bookshelves created with these are four times as potent as a standard bookshelf when it comes to boosting an enchantment table, so only four (instead of 15) are required for the table to provide level 30 enchantments.
+
 
 Automagy.research_name.THIRSTYTANK=Thirsty Tank
 Automagy.research_text.THIRSTYTANK=Unquenchable
@@ -167,8 +181,12 @@ Automagy.research_page.EAGERCHEST.2=but others can introduce themselves by use o
 
 Automagy.research_name.ENDERDISJUNCTION=Ender Disjunction
 Automagy.research_text.ENDERDISJUNCTION=Splinch 'em
-Automagy.research_page.ENDERDISJUNCTION.1=Your efforts to exploit the tie between avarice pearls and the enderman menace have finally paid off. You've crafted a ring that, when worn, hooks itself onto the invisible transdimensional threads generated by ender creatures. Each teleport occurring nearby (whether arriving or leaving) results in a sudden and violent tearing away of these hooks, seriously injuring the creature.<BR>A source of §8Perditio§0 in your inventory (such as a wand) is required for the ring to function. A small amount is drained each time a creature is damaged by it.
+Automagy.research_page.ENDERDISJUNCTION.1=Your efforts to exploit the tie between avarice pearls and the enderman menace have finally paid off. You've crafted a ring that, when worn, hooks itself onto the invisible transdimensional threads generated by ender creatures. Each teleport occurring nearby (whether arriving or leaving) results in a sudden and violent tearing away of these hooks, seriously injuring the creature.<BR>A source of §8Perditio§0 in your inventory (such as a wand) is required for the ring to function. A small amount is drained each time a creature is damaged by it.<BR>Wearing a second ring increases the damage dealt by half.
 Automagy.research_page.ENDERDISJUNCTION.RUNICAUGMENTATION=§l      §nRunic Shielding§r<BR>Your research into §lRunic Shielding Augmentation§r should apply to this ring, allowing it to provide shielding if you're willing to pay the price of the infusion process.
+
+Automagy.research_name.NITORLIGHT=Glowing Amber
+Automagy.research_text.NITORLIGHT=Encased Nitor
+Automagy.research_page.NITORLIGHT.1=Encasing nitor in amber allows for a simple light source.
 
 Automagy.research_name.REMOTECOMPARATOR=Remote Comparator
 Automagy.research_text.REMOTECOMPARATOR=Keeping an eye on things
@@ -255,9 +273,23 @@ Automagy.research_page.ESSENTIALOCUSAGGREGATOR.2=perform infusions, but you beli
 Automagy.research_name.INVENTARIUM=Inventarium
 Automagy.research_text.INVENTARIUM=For the hoard
 Automagy.research_page.INVENTARIUM.1=The more stuff you have, the more difficult it is to keep track of. The tally box is of limited use when what it's looking for could be found in one of several different chests, or worse, its numbers spread across multiple chests. What you'd need is a centralized storage-tracking system. From this need springs the Inventarium.<BR>To function, the core of the Inventarium must be placed above an order crystal cluster that is itself above a block of amber or amber bricks. Bookshelves arranged as indicated on the following pages are also required.<BR>The core must be placed last.
-Automagy.research_page.INVENTARIUM.2=The Inventarium itself doesn't contain any items but many containers can be associated with it. Any tally box that points at the Inventarium Core (indirectly, by way of a remote comparator) or that directly points at any of the eight bookshelves in this diagram will output a redstone signal based on the combined total contents of all associated containers.<LINE>To tie your containers to the Inventarium, you will need to employ at least one §lUnseen Scribe§r. This enchanted device records the contents of certain objects around it and passes this information on to the Inventarium proper. It will only examine a single type of container.
+Automagy.research_page.INVENTARIUM.2=The Inventarium itself doesn't contain any items but many containers can be associated with it and their contents displayed. Any tally box that points at the Inventarium Core (indirectly, by way of a remote comparator) or that directly points at any of the eight bookshelves in this diagram will output a redstone signal based on the combined total contents of all associated containers.<LINE>To tie your containers to the Inventarium, you will need to employ at least one §lUnseen Scribe§r. This enchanted device records the contents of certain objects around it and passes this information on to the Inventarium proper. It will only examine a single type of container.
 Automagy.research_page.INVENTARIUM.3=The first inventory found behind the device sets this type. Containers to be included must be within a 7x7x7 area centered on the scribe.<BR>To operate, an Unseen Scribe must be linked to the local Inventarium and be provided with a steady supply of §8Ordo§0 vis (by vis relay).<BR>Right-click on a scribe to review the items it has recorded or §lall§r items in the system.<LINE>The maximum number of Unseen Scribes allowed per Inventarium Core starts at one. Each order crystal cluster placed in a 7x7x7 area centered on the core increases this by one. Each cluster also increases
-Automagy.research_page.INVENTARIUM.4=the distance which a scribe can be from the core.<BR>Each bookshelf in the area contributes 81 slots to the maximum number of inventory slots that the Inventarium can cover. (That's 3 standard chests per bookshelf.) Containers will not be partially included: If its slot count is higher than what is available, the Scribe won't relay any of its contents. (Black particles above the scribe will appear if a container is excluded for this reason.)<BR>To link an Unseen Scribe to the Inventarium Core, simply right-click on the scribe with your wand. The core must be within 10 blocks (with 8 additional blocks allowed per order cluster).
+Automagy.research_page.INVENTARIUM.4=the distance which a scribe can be from the core.<BR>Each bookshelf in the area contributes 81 slots to the maximum number of inventory slots that the Inventarium can cover. (That's 3 standard chests per bookshelf.) Containers will not be partially included: If its slot count is higher than what is available, the Scribe won't relay any of its contents. (Black particles will appear above the scribe if a container is excluded for this reason.)<BR>To link an Unseen Scribe to the Inventarium Core, simply right-click on the scribe with your wand. The core must be within 10 blocks (with 8 additional blocks allowed per order cluster).
+Automagy.research_page.INVENTARIUM.5=Right-clicking on the core with your wand will give you numbers for the Inventarium's currently used and maximum slots and scribes.
+
+Automagy.research_name.INVENTARIUM_EXTRA=Condensed Archives
+Automagy.research_text.INVENTARIUM_EXTRA=Never enough
+Automagy.research_page.INVENTARIUM_EXTRA.1=By replacing the standard bookshelves around the Inventarium Core with certain alternatives, the maximum number of slots that can be read by the system can be increased by more than the normal 81 slots.<BR>An §lEnchanting Bookshelf§r (made from enchanted paper) provides 216 slots (8 single chests' worth).<BR>An §lEnsorcelled Bookshelf§r provides 486 slots (18 single chests' worth). Like the Enchanting Bookshelf, it can also be used to boost an enchantment table. It is eight times as potent as a standard bookshelf for this purpose.
+
+Automagy.research_name.INVENTARIUM_DELIVERY=Supply and Demand
+Automagy.research_text.INVENTARIUM_DELIVERY=Special delivery
+Automagy.research_page.INVENTARIUM_DELIVERY.1=To properly consolidate your storage, you'll need not just a list but also a way to retrieve what you've stored. And what better way to accomplish this than with golems?<BR>Several components are required to get your delivery system working as intended. At a minimum, you'll need a functional Inventarium (including at least one Unseen Scribe reading from containers), a golem with access to your storage containers, a suitable drop-off point for the golem to put the items it retrieves, a way to place orders, and a way to turn these orders into something the golem will follow. To fulfill these last two requirements, you've invented some new devices.
+Automagy.research_page.INVENTARIUM_DELIVERY.2=Multiple drop-off points may be used, each with one or more §lFill§r core- fitted golems using it as their home location. A drop-off point can be any location where your golem(s) can leave items but, if it is a container, it §lmust be quickly emptied§r of items or deliveries may be hampered. Consider using, say, an item grate over a magic mirror rather than a chest - perhaps one that will send items directly to where you'll be standing when you place orders.<BR>Every container read by your scribes should have at least one of these fill golems linked to it (by golemancer's bell) and no such golem should be told to take from other containers. Unexpected results may occur otherwise. Keeping containers sorted such that a given item type
+Automagy.research_page.INVENTARIUM_DELIVERY.3=is found in as few containers as possible may speed larger deliveries since fewer trips will be needed.<BR>Next, position a §lGolemic Taskmaster§r nearby and link the Fill golems to it using a §lGolem Linking Bell§r. A single taskmaster can handle up to six golems. The golems need not be tied to the same drop-off point but the taskmaster can only control them if their resting location (where they stand when not moving items) is within five blocks.<BR>As with the scribe, each taskmaster must be linked to the Inventarium Core (right-click with a wand) and the distance over which this is allowed is increased by order crystal clusters near the core. The
+Automagy.research_page.INVENTARIUM_DELIVERY.4=number of taskmasters allowed is equal to the number of §lMemory Blocks§r installed, so you'll need at least one.<BR>To be of use, a Memory Block must be placed within the 7x2x7 area that starts two blocks below the core and it must be next to an amber block or amber bricks (such as the one directly below the core). Right- clicking the core with your wand will display the number of currently used and maximum memory slots.<LINE>
+Automagy.research_page.INVENTARIUM_DELIVERY.5=The last piece of the puzzle is the §lRequisition Tome§r. Like the Unseen Scribe, it will display the entire contents of your storage system. This is where you place orders.<BR>Left-click on a listed item to increase the number ordered or right-click to decrease it. Hold Shift to move stacks or Ctrl to move 10 at a time. Use the slots on the left or hold Alt/Option to request more than you actually have stored.<BR>The tome has requirements similar to those of a taskmaster: A dedicated Memory Block, linking it to the core, and order crystal clusters to increase the linking distance. In addition, the tome requires a supply of §8Ordo§0 vis (by vis relay).
+Automagy.research_page.INVENTARIUM_DELIVERY.6=One final note: Golems aren't the best at adapting to changing orders, so if you reduce the amount requested after they've already picked too much up, they'll simply drop the excess on the floor. It may be wise to have something in place to put such items back into their containers.
 
 Automagy.research_name.NETHERMIND=Nethermind
 Automagy.research_text.NETHERMIND=Pulled from the ashes
@@ -291,7 +323,7 @@ Automagy.research_page.AMNESIASTONE.2=all the stored experience to be dropped at
 
 Automagy.research_name.MOBLURE=Siren's Lure
 Automagy.research_text.MOBLURE=Burning desire
-Automagy.research_page.MOBLURE.1=While researching runes to use with the Nethermind, another property of the Ignis-imbued crystalline brain has come to light. When its energy is directed at the minds of creatures around it, it can instill certain powerful emotions.<BR>With this knowledge, you have created a device that draws nearby creatures toward itself. The awe and passion it instills blinds them to all else, including their surroundings - even when those surroundings include a sudden drop from great heights.<BR>Although runed obsidian is used in its construction, the result is something fundamentally different
+Automagy.research_page.MOBLURE.1=While researching runes to use with the Nethermind, another property of the Ignis-imbued crystalline brain has come to light. When its energy is directed at the minds of creatures around it, it can instill certain powerful emotions.<BR>With this knowledge, you have created a device that draws nearby creatures toward itself. The awe and passion it instills blinds them to most everything else, including their surroundings - even when those surroundings include a sudden drop from great heights.<BR>Although runed obsidian is used in its construction, the result is something fundamentally different
 Automagy.research_page.MOBLURE.2=and cannot be used as part of a Nethermind structure. In fact, on its own, none of the obsidian you've worked with so far is up to par with what you'd need here. Fortunately, the ancients have left some of their handiwork behind.<BR>To function, the Lure must be placed as part of a vertical line of §lObsidian Totem§r blocks (at least two). Susceptible creatures in a fairly wide horizontal area are affected but the vertical area is only as tall as the completed totem (maximum 4 blocks above and 4 below).<BR>The horizontal area covered can be greatly increased if a jar of §4Fames§0 is provided nearby.<BR>Tap the Lure with your §lwand§r to
 Automagy.research_page.MOBLURE.3=activate or deactivate it.<BR>Different creatures react to the siren's call in different ways. Many will simply blindly walk in its direction. Others, such as endermen, appear to become confused and may even struggle to get away when approaching a drop, but this is short-lived. Endermen under its spell may even teleport closer. Your golems and certain powerful entities are completely immune.<BR>The Lure won't hold a creature's attention indefinitely. If it is unable to get closer to the Lure for a period of time, then the effect may wear off, at which point it may take some time for it to be applied to that specific creature again. Lastly, creatures that are engaged in combat
 Automagy.research_page.MOBLURE.4=are often able to shrug off the call.<BR>If multiple Lures are in range of a creature, then the one with the strongest lure will be the creature's primary target. The taller the totem, the stronger the lure.
@@ -313,6 +345,15 @@ Automagy.chat.unseenScribe.noConnectionsLeft=Link failed. All connections are in
 Automagy.chat.unseenScribe.alreadyLinked=This has already been linked. (%s, %s, %s)
 Automagy.chat.thaumostaticSpire.setSuction=Set this side to input %s.
 Automagy.chat.nethermind.yTooLow=The Nethermind cannot be activated so close to the bottom of the world.
+Automagy.chat.inventarium.statusSlots=Inventarium Slots: %s/%s.
+Automagy.chat.inventarium.statusScribes= Scribes: %s/%s.
+Automagy.chat.inventarium.statusNodes= Scribes: %s/%s. Memory: %s/%s.
+Automagy.chat.golemTaskmaster.alreadyLinked=This has already been linked. (%s, %s, %s)
+Automagy.chat.golemTaskmaster.noConnectionsLeft=Link failed. All connections are in use.
+Automagy.chat.golemTaskmaster.outOfRange=Link failed. There is no Inventarium Core within range.
+Automagy.chat.reqTome.noConnectionsLeft=Link failed. All connections are in use.
+Automagy.chat.reqTome.outOfRange=Link failed. There is no Inventarium Core within range.
+Automagy.chat.reqTome.alreadyLinked=This has already been linked. (%s, %s, %s)
 
 # Tooltips
 Automagy.tip.crystalEye.link=Watching %s,%s,%s in %s
@@ -327,6 +368,7 @@ Automagy.tip.foodstuff.0=This doesn't seem wise.
 Automagy.tip.tankFluidData=%s / %s mB of %s
 Automagy.tip.creativeModeOnly=Creative Mode Only
 Automagy.tip.creativeTool.0=Usage: Craft with a golem
+Automagy.tip.enderDisjunction=Splinches nearby endermen
 
 # GUI
 Automagy.gui.visReader.mode.col=Mode
@@ -346,10 +388,12 @@ Automagy.gui.visReader.dir.D=D
 Automagy.gui.visReader.invert=Invert
 
 Automagy.gui.hourglassMagic.repeat=Repeat/Loop?
-Automagy.gui.hourglassMagic.signal.name=Redstone Signal:
+Automagy.gui.hourglassMagic.signal.name=Signal Sent:
 Automagy.gui.hourglassMagic.signal.0=Disabled
 Automagy.gui.hourglassMagic.signal.1=Pulse
 Automagy.gui.hourglassMagic.signal.2=Alternating
+Automagy.gui.hourglassMagic.signal.3=Constant
+Automagy.gui.hourglassMagic.signal.4=Negative Pulse
 Automagy.gui.hourglassMagic.sandFlip.name=On Reactivation:
 Automagy.gui.hourglassMagic.sandFlip.0=Standard
 Automagy.gui.hourglassMagic.sandFlip.1=Move Sand to Top
@@ -362,6 +406,11 @@ Automagy.gui.hourglassMagic.timer.minutesAndSeconds=%s min %s sec
 Automagy.gui.hourglassMagic.timer.sec=seconds
 Automagy.gui.hourglassMagic.timer.min=minutes
 Automagy.gui.hourglassMagic.timer.tooltip=Left-click to increase.\nRight-click to decrease.\nHold Shift to adjust by 10.
+Automagy.gui.hourglassMagic.signalReact.name=Signal Received:
+Automagy.gui.hourglassMagic.signalReact.0=Ignore
+Automagy.gui.hourglassMagic.signalReact.1=Flip Hourglass
+Automagy.gui.hourglassMagic.signalReact.2=Prevent Timer
+Automagy.gui.hourglassMagic.signalReact.3=Required for Timer
 
 Automagy.gui.greedyChest.mode.name=Pilfer Mode:
 Automagy.gui.greedyChest.mode.0=Split New Contents
@@ -426,6 +475,7 @@ Automagy.gui.scribe.itemsLocal=Local
 Automagy.gui.scribe.itemsSystem=Inventarium
 Automagy.gui.scribe.sortCount=Item Count
 Automagy.gui.scribe.sortName=Name
+Automagy.gui.scribe.deliver=Pending Requests
 
 
 # Miscellaneous
@@ -441,6 +491,7 @@ wailaTip.hourglassTimerCountdown=         %s:%s remaining
 wailaTip.golemInhibitorMatchOmit=Mode : Omit Linked Golems
 wailaTip.golemInhibitorMatchExclusive=Mode : Linked Golems Only
 wailaTip.golem.linkedBlock=Linked to %s at %s
+wailaTip.golem.taskFetch=Fetching Requested Items
+# wailaTip.golem.taskFetch.specific=Fetching %s %s
 wailaTip.tankFluidData=%s / %s mB of %s
 wailaTip.tankFluidDataEmpty=0 / %s mB
-
