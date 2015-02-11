@@ -3,7 +3,7 @@ Automagy
 
 This place exists to allow contribution to Automagy's localization files, submit issues, and access the API.
 
-# Contributing
+## Contributing
 
 Please DO NOT commit any changes except to .lang files, and DO NOT change the en_US.lang file.
 
