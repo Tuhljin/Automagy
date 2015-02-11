@@ -24,9 +24,7 @@ public class ProviderForCrate implements IInventariumContentsProvider {
 	public int getSlotCount(TileEntity te, int setID) {
 		Object crateID = ((ICrateStorage) te).getCrateIdentifier();
 		if (setID == prevID) {
-			if (isRepeatCrateID(crateID)) {
-				return 0;
-			}
+			if (crateIDs.contains(crateID))  return 0;
 		} else {
 			prevID = setID;
 			crateIDs.clear();
@@ -43,13 +41,6 @@ public class ProviderForCrate implements IInventariumContentsProvider {
 			list.add(stack);
 		}
 		return list.toArray(new ItemStack[list.size()]);
-	}
-
-	private boolean isRepeatCrateID(Object crateID) {
-		for (Object id : crateIDs) {
-			if (crateID == id)  return true;
-		}
-		return false;
 	}
 
 }
