@@ -166,7 +166,7 @@ Automagy.research_page.ENCHANTEDPAPER.2=§l        §nEnchanting§r<BR>Enchanted
 Automagy.research_name.THIRSTYTANK=Thirsty Tank
 Automagy.research_text.THIRSTYTANK=Unquenchable
 Automagy.research_page.THIRSTYTANK.1=With a few modifications, the magical hunger that drives the hungry chest becomes a thirst that causes a specially constructed tank to "drink" liquids that come into contact with it.<BR>Only fluid blocks that can be picked up by a bucket can be swallowed, but even flowing liquid can cause a reaction. The tank can take fluids from the world at some distance provided there is an unbroken chain of the same type leading from the tank to the target block. In this way, small pools can be consumed without moving the tank.<BR>Liquids can also be added or removed from the tank in the
-Automagy.research_page.THIRSTYTANK.2=standard fashion, such as by buckets or certain golems.<BR>If placed next to a water source block, the tank can draw water from it indefinitely.
+Automagy.research_page.THIRSTYTANK.2=standard fashion, such as by buckets or certain golems.<BR>If placed next to a water source block, the tank can draw water from it indefinitely.<BR>You can also fill and empty water bottles using the tank if it contains water. This won't affect the amount of water stored.<BR>You might want to shelter it from the rain, though.
 
 Automagy.research_name.AVARICIOUS=Structured Avarice
 Automagy.research_text.AVARICIOUS=For Fun and Profit
