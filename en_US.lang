@@ -29,6 +29,7 @@ item.baubleEnderDisjunction.1.name=Lesser Ring of Ender Disjunction
 item.netherHeart.name=Ember Heart
 item.autoHandMirror.name=Hungry Hand Mirror
 item.creativeTool.0.name=Thinking Cap
+item.focusCrafting.name=Wand Focus: Crafting
 
 # Blocks
 tile.blockTorchInversion.name=Redstone Inversion Torch
@@ -91,6 +92,7 @@ tile.blockMetalGlow.1.name=Memory Block
 
 # Entities
 entity.Automagy.XPOrbSuppressed.name=Amnesiac's Experience Orb
+entity.Automagy.EntityItemDelayedFall.name=Hovering Item
 
 # Research
 tc.research_category.AUTOMAGY=Automagy
@@ -177,7 +179,7 @@ Automagy.research_page.AVARICIOUS.3=§l       §nMiser's Pearl§r<BR>The Miser's
 Automagy.research_name.EAGERCHEST=Eager Chest
 Automagy.research_text.EAGERCHEST=A chest that doesn't wait to be filled
 Automagy.research_page.EAGERCHEST.1=You've managed to create a variation upon the greedy chest that focuses its attention on the person opening it instead of its neighbors. By tempering the pearl used in its construction, the Eager Chest is imbued with the desire to "trade" rather than steal. It is still rather impatient about this and so will immediately attempt to give and take items when opened.<BR>You've intentionally left some holes in its senses, allowing you to §lsneak§r up to it when you want to look inside without triggering a trade. Additionally, the chest won't trade with people it doesn't recognize, which at first would be anyone but the person who placed it,
-Automagy.research_page.EAGERCHEST.2=but others can introduce themselves by use of a wand.<BR>A wand is also necessary in order to tell the chest what should be considered a proper trade. By default, a certain level of greed slips through, as it will take anything it senses is valuable while giving only things it doesn't value - although in truth, that is how it works even with runic whitelists or blacklists installed. The difference is only that those lists skew its evaluations.
+Automagy.research_page.EAGERCHEST.2=but others can introduce themselves by use of a wand.<BR>A wand is also necessary in order to tell the chest what should be considered a proper trade. By default, a certain level of greed slips through, as it will take anything it senses is valuable while giving only things it doesn't value - although in truth, that is how it works even with runic whitelists or blacklists installed. The difference is only that those lists skew its evaluations.<LINE>On another note, you suspect that this amalgam you've concocted will be valued highly by pechs.
 
 Automagy.research_name.ENDERDISJUNCTION=Ender Disjunction
 Automagy.research_text.ENDERDISJUNCTION=Splinch 'em
@@ -328,6 +330,16 @@ Automagy.research_page.MOBLURE.2=and cannot be used as part of a Nethermind stru
 Automagy.research_page.MOBLURE.3=activate or deactivate it.<BR>Different creatures react to the siren's call in different ways. Many will simply blindly walk in its direction. Others, such as endermen, appear to become confused and may even struggle to get away when approaching a drop, but this is short-lived. Endermen under its spell may even teleport closer. Your golems and certain powerful entities are completely immune.<BR>The Lure won't hold a creature's attention indefinitely. If it is unable to get closer to the Lure for a period of time, then the effect may wear off, at which point it may take some time for it to be applied to that specific creature again. Lastly, creatures that are engaged in combat
 Automagy.research_page.MOBLURE.4=are often able to shrug off the call.<BR>If multiple Lures are in range of a creature, then the one with the strongest lure will be the creature's primary target. The taller the totem, the stronger the lure.
 
+Automagy.research_name.FOCUSCRAFTING=Wand Focus: Crafting
+Automagy.research_text.FOCUSCRAFTING=Putting it all together
+Automagy.research_page.FOCUSCRAFTING.1=The need to craft seems to never end, no matter how far from home you may be. While some may resort to lugging tables around everywhere they go, you have found a more elegant solution.<BR>This wand focus can be used to create anything you could assemble with an arcane worktable (including items both mundane and magical). The wand it is attached to will be used to provide any vis required by the recipe.<BR>To begin crafting, you can equip the focus and right-click with the wand. Alternatively, press '%s' while the focus-equipped wand is on your hotbar.
+Automagy.research_page.FOCUSCRAFTING.STAFF=§l        §nMagic Staves§r<BR>While this focus can be applied to a magic staff, such an instrument is still unsuited for the intricate work needed to craft thaumaturgical items. It can assist when putting together other items, though.
+
+Automagy.research_name.FOCUSCRAFTING_UPGRADE=Crafting Focus Upgrades
+Automagy.research_text.FOCUSCRAFTING_UPGRADE=How convenient
+Automagy.research_page.FOCUSCRAFTING_UPGRADE.1=With your new focal manipulator, you can greatly improve the utility of the crafting focus.<BR>§lGratis:§r This upgrade causes the focus's basic operations to consume no vis. (Item crafting will still consume the normal amount.)<BR>§lStorage:§r After crafting using a focus with this upgrade, any items left in the crafting grid will be stored in an extradimensional space attached to the focus.<BR>§lTransposing:§r A focus with this upgrade will instantly install itself upon a wand when called by the wielder. The focus can be called from anywhere in the inventory or
+Automagy.research_page.FOCUSCRAFTING_UPGRADE.2=from a focus pouch that is being carried or worn. (To call it, press the same key as that used to begin crafting with the focus.)
+
 # Chat messages
 Automagy.chat.newVersionAvailable=Automagy v%s is now available. (You are running v%s.)
 Automagy.chat.newVersionLink=["Click ",{"text":"[this link]","color":"aqua","hoverEvent":{"action":"show_text","value":{"text":"Click to go to Automagy's webpage","color":"aqua"}},"clickEvent":{"action":"open_url","value":"http://everburningtorch.com/minecraft/automagy/"}}," for more info and downloads."]
@@ -369,6 +381,8 @@ Automagy.tip.tankFluidData=%s / %s mB of %s
 Automagy.tip.creativeModeOnly=Creative Mode Only
 Automagy.tip.creativeTool.0=Usage: Craft with a golem
 Automagy.tip.enderDisjunction=Splinches nearby endermen
+Automagy.tip.focusCrafting.stored1=(holding 1 stack)
+Automagy.tip.focusCrafting.stored=(holding %s stacks)
 
 # GUI
 Automagy.gui.visReader.mode.col=Mode
@@ -477,6 +491,20 @@ Automagy.gui.scribe.sortCount=Item Count
 Automagy.gui.scribe.sortName=Name
 Automagy.gui.scribe.deliver=Pending Requests
 
+Automagy.gui.focusCrafting.visLow=Insufficient vis
+Automagy.gui.focusCrafting.staff.1=Staff: Mundane
+Automagy.gui.focusCrafting.staff.2=crafting only
+
+# Focus upgrades
+Automagy.focus.upgrade.gratis.name=Gratis
+Automagy.focus.upgrade.gratis.text=This upgrade causes the focus's basic operations to consume no vis. (Item crafting will still consume the normal amount.)
+Automagy.focus.upgrade.storage.name=Storage
+Automagy.focus.upgrade.storage.text=After crafting using a focus with this upgrade, any items left in the crafting grid will be stored in an extradimensional space attached to the focus.
+Automagy.focus.upgrade.transposing.name=Transposing
+Automagy.focus.upgrade.transposing.text=A focus with this upgrade will instantly install itself upon a wand when called by the wielder. The focus can be called from anywhere in the inventory or from a focus pouch that is being carried or worn. (To call it, press the same key as that used to begin crafting with the focus.)
+
+# Key bindings
+Automagy.key.focusCrafting=Wand Focus: Crafting
 
 # Miscellaneous
 itemGroup.Automagy=Automagy
