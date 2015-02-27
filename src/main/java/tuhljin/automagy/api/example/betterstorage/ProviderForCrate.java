@@ -28,8 +28,8 @@ public class ProviderForCrate implements IInventariumContentsProvider {
 		} else {
 			prevID = setID;
 			crateIDs.clear();
-			crateIDs.add(crateID);
 		}
+		crateIDs.add(crateID);
 		return ((ICrateStorage) te).getCapacity();
 	}
 
