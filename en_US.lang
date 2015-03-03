@@ -333,12 +333,13 @@ Automagy.research_page.MOBLURE.4=are often able to shrug off the call.<BR>If mul
 Automagy.research_name.FOCUSCRAFTING=Wand Focus: Crafting
 Automagy.research_text.FOCUSCRAFTING=Putting it all together
 Automagy.research_page.FOCUSCRAFTING.1=The need to craft seems to never end, no matter how far from home you may be. While some may resort to lugging tables around everywhere they go, you have found a more elegant solution.<BR>This wand focus can be used to create anything you could assemble with an arcane worktable (including items both mundane and magical). The wand it is attached to will be used to provide any vis required by the recipe.<BR>To begin crafting, you can equip the focus and right-click with the wand. Alternatively, press '%s' while the focus-equipped wand is on your hotbar.
+Automagy.research_page.FOCUSCRAFTING.2=A small amount of vis is consumed when you open the crafting grid and each time you craft an arcane item. (Mundane items do not require additional vis.)
 Automagy.research_page.FOCUSCRAFTING.STAFF=§l        §nMagic Staves§r<BR>While this focus can be applied to a magic staff, such an instrument is still unsuited for the intricate work needed to craft thaumaturgical items. It can assist when putting together other items, though.
 
 Automagy.research_name.FOCUSCRAFTING_UPGRADE=Crafting Focus Upgrades
 Automagy.research_text.FOCUSCRAFTING_UPGRADE=How convenient
-Automagy.research_page.FOCUSCRAFTING_UPGRADE.1=With your new focal manipulator, you can greatly improve the utility of the crafting focus.<BR>§lGratis:§r This upgrade causes the focus's basic operations to consume no vis. (Item crafting will still consume the normal amount.)<BR>§lStorage:§r After crafting using a focus with this upgrade, any items left in the crafting grid will be stored in an extradimensional space attached to the focus.<BR>§lTransposing:§r A focus with this upgrade will instantly install itself upon a wand when called by the wielder. The focus can be called from anywhere in the inventory or
-Automagy.research_page.FOCUSCRAFTING_UPGRADE.2=from a focus pouch that is being carried or worn. (To call it, press the same key as that used to begin crafting with the focus.)
+Automagy.research_page.FOCUSCRAFTING_UPGRADE.1=With your new focal manipulator, you can greatly improve the utility of the crafting focus.<BR>§lGratis:§r This upgrade causes the focus's basic operations to consume no vis. (Opening the grid is free and crafted items only cost the normal amount.)<BR>§lStorage:§r After crafting using a focus with this upgrade, any items left in the crafting grid will be stored in an extradimensional space attached to the focus.<BR>§lTransposing:§r A focus with this upgrade will instantly install itself upon a wand when called by the wielder. The focus can be called
+Automagy.research_page.FOCUSCRAFTING_UPGRADE.2=from anywhere in the inventory or from a focus pouch that is being carried or worn. (To call it, press the same key as that used to begin crafting with the focus.)
 
 # Chat messages
 Automagy.chat.newVersionAvailable=Automagy v%s is now available. (You are running v%s.)
@@ -360,6 +361,7 @@ Automagy.chat.nethermind.yTooLow=The Nethermind cannot be activated so close to 
 Automagy.chat.inventarium.statusSlots=Inventarium Slots: %s/%s.
 Automagy.chat.inventarium.statusScribes= Scribes: %s/%s.
 Automagy.chat.inventarium.statusNodes= Scribes: %s/%s. Memory: %s/%s.
+Automagy.chat.inventarium.chunkUnloaded=The linked Inventarium Core is unavailable. (Chunk not loaded.)
 Automagy.chat.golemTaskmaster.alreadyLinked=This has already been linked. (%s, %s, %s)
 Automagy.chat.golemTaskmaster.noConnectionsLeft=Link failed. All connections are in use.
 Automagy.chat.golemTaskmaster.outOfRange=Link failed. There is no Inventarium Core within range.
@@ -497,7 +499,7 @@ Automagy.gui.focusCrafting.staff.2=crafting only
 
 # Focus upgrades
 Automagy.focus.upgrade.gratis.name=Gratis
-Automagy.focus.upgrade.gratis.text=This upgrade causes the focus's basic operations to consume no vis. (Item crafting will still consume the normal amount.)
+Automagy.focus.upgrade.gratis.text=This upgrade causes the focus's basic operations to consume no vis. (Opening the grid is free and crafted items only cost the normal amount.)
 Automagy.focus.upgrade.storage.name=Storage
 Automagy.focus.upgrade.storage.text=After crafting using a focus with this upgrade, any items left in the crafting grid will be stored in an extradimensional space attached to the focus.
 Automagy.focus.upgrade.transposing.name=Transposing
