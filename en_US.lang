@@ -30,6 +30,8 @@ item.netherHeart.name=Ember Heart
 item.autoHandMirror.name=Hungry Hand Mirror
 item.creativeTool.0.name=Thinking Cap
 item.focusCrafting.name=Wand Focus: Crafting
+item.tallyLens.0.name=Tally Box Lens: Unbound
+item.tallyLens.1.name=Tally Box Lens: Yield
 
 # Blocks
 tile.blockTorchInversion.name=Redstone Inversion Torch
@@ -50,6 +52,8 @@ tile.blockHungryMaw.name=Hungry Maw
 tile.blockFinicalMaw.name=Finical Maw
 tile.blockPhenomenon.name=Phenomenon
 tile.blockTally.name=Tally Box
+tile.blockTallyLensWorld.name=Tally Box (Lens: Unbound)
+tile.blockTallyLensDrops.name=Tally Box (Lens: Yield)
 tile.blockGolemInhibitor.name=Golemic Inhibitor
 tile.blockEntitySignal.name=Signum Entia
 tile.blockThaumostaticSpire.name=Thaumostatic Spire
@@ -208,6 +212,10 @@ Automagy.research_name.TALLYBLOCK=Tally Box
 Automagy.research_text.TALLYBLOCK=It's all about the numbers
 Automagy.research_page.TALLYBLOCK.1=Knowing how full a chest is is all well and good, but often what you really want to keep track of is how many of a given thing you've got in there. To that end, you've designed the Tally Box.<BR>Simply place it such that it points at a container (similar to placing a hopper). Next, fill out a runic whitelist or blacklist and place it inside the box. It will emit a redstone signal when the conditions you specify are met. The signal is output in the direction opposite from the target container.<BR>Alternatively, place a §lremote comparator§r above the box, attune a crystalline eye to the inventory
 Automagy.research_page.TALLYBLOCK.2=you want to examine, then place that eye into the comparator. The comparator will cease its normal functions, instead relaying item information for the tally box to act upon.<BR>If a tally box is set to read from another tally box, contents will be retrieved from the second box's target. If that target is also a tally box, then it will relay its own target's contents, and so on. By chaining tally boxes and remote comparators together in this way, containers may be read from very long distances.
+
+Automagy.research_name.TALLYBLOCK_LENS=Tally Box Lenses
+Automagy.research_text.TALLYBLOCK_LENS=It all adds up
+Automagy.research_page.TALLYBLOCK_LENS.1=Attaching one of these lenses to a tally box changes the way it detects items at its target location.<BR>A box with the §lUnbound§r lens examines loose items at the location rather than items in a container.<BR>The §lYield§r lens reveals to the box the items that may be dropped by the targeted block. (Both standard results and those possible using a tool with the silk touch enchant are considered.) This may be a good way to output a signal only when the target contains a specific block.
 
 Automagy.research_name.HUNGRYMAW=Hungry Maw
 Automagy.research_text.HUNGRYMAW=All mouth, no stomach
