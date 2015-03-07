@@ -30,8 +30,9 @@ item.netherHeart.name=Ember Heart
 item.autoHandMirror.name=Hungry Hand Mirror
 item.creativeTool.0.name=Thinking Cap
 item.focusCrafting.name=Wand Focus: Crafting
-item.tallyLens.0.name=Tally Box Lens: Unbound
-item.tallyLens.1.name=Tally Box Lens: Yield
+item.tallyLens.0.name=Tally Box Lens: Clear
+item.tallyLens.1.name=Tally Box Lens: Unbound
+item.tallyLens.2.name=Tally Box Lens: Yield
 
 # Blocks
 tile.blockTorchInversion.name=Redstone Inversion Torch
