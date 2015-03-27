@@ -1,0 +1,17 @@
+package tuhljin.automagy.api.essentia;
+
+import thaumcraft.api.aspects.AspectList;
+import thaumcraft.api.aspects.IAspectContainer;
+
+/**
+ * @author Tuhljin
+ * 
+ * This interface should be implemented by tile entities that have a set maximum
+ * amount of an aspect they can hold. This lets vis readers know what their
+ * capacities are when it is in "Auto" mode.
+ */
+public interface IAspectContainerWithMax extends IAspectContainer {
+
+	public AspectList getAspectsBase();
+
+}
