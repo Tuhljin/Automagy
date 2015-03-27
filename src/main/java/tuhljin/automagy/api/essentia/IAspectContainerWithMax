@@ -15,3 +15,25 @@ public interface IAspectContainerWithMax extends IAspectContainer {
 	public AspectList getAspectsBase();
 
 }
+
+/* Example implementation:
+
+public class MyEssentiaJar implements IAspectContainerWithMax {
+
+	Aspect aspectContained;
+	Aspect jarLabel;
+	int maxAmount;
+	int currentAmount;
+
+	@Override
+	public AspectList getAspectsBase() {
+		Aspect a = aspectContained != null ? aspectContained : jarLabel;
+		if (a != null) {
+			return new AspectList().add(a, maxAmount);
+		}
+		return null;
+	}
+
+}
+
+ */
