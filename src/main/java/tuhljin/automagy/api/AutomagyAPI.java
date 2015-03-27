@@ -11,7 +11,7 @@ import tuhljin.automagy.api.inventarium.IInventariumContentsProvider;
 
 /** Automagy API
  *  Author: Tuhljin
- *  Revision: 1
+ *  Revision: 2
  *  */
 
 public class AutomagyAPI {
@@ -19,6 +19,7 @@ public class AutomagyAPI {
 	/** Blocks in this list will be ignored by Unseen Scribes, preventing their use by the Inventarium.
 	 *  (Initially populated based on Automagy's config file but you can add to it directly if needed.) */
 	public static ArrayList<Block> invContainerBlacklist = new ArrayList<Block>();
+
 
 	public static Map<Integer, List<IInventariumContentsProvider>> invContentsProviders = new TreeMap<Integer, List<IInventariumContentsProvider>>();
 
