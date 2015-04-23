@@ -43,6 +43,12 @@ item.glyph.6.name=Glyph of Preservation
 item.glyph.7.name=Glyph of the Guzzler
 item.glyph.8.name=Glyph of the Reservoir
 item.glyph.9.name=Glyph of the Bovine
+item.golemWorkbenchUpgrade.0.name=Workbench Upgrade: Air
+item.golemWorkbenchUpgrade.1.name=Workbench Upgrade: Fire
+item.golemWorkbenchUpgrade.2.name=Workbench Upgrade: Water
+item.golemWorkbenchUpgrade.3.name=Workbench Upgrade: Earth
+item.golemWorkbenchUpgrade.4.name=Workbench Upgrade: Order
+item.golemWorkbenchUpgrade.5.name=Workbench Upgrade: Entropy
 
 item.bucketMushroom.name=Bucket of Mushroom Soup
 item.bucketVishroom.name=Bucket of Vishroom Soup
@@ -365,6 +371,12 @@ Automagy.research_text.GOLEMWORKBENCH=Some assembly required?
 Automagy.research_page.GOLEMWORKBENCH.1=The golem's workbench allows you to lay out a pattern and crafting instructions with enough magical aid that even a golem could follow them.<BR>Many recipes are too complicated for your less intelligent golems. An §ladvanced golem§r is required unless the recipe fits in a 2x2 grid or all its components are the same.<BR>Once the recipe is specified using the first nine slots, provide the materials to be used in the bottom slots. Then, place a golem with the §lEmpty§r golem animation core so it is attached to the workbench and instruct the golem to only take the item you want it to craft. Use the golemancer's bell to tell the golem
 Automagy.research_page.GOLEMWORKBENCH.2=where to place the new items.<BR>Note that only recipes that can be completed on a standard crafting table will work here. Even your most advanced golems are unable to grasp the thaumic fundamentals needed to wield vis. Something tells you this may be for the best.<BR>To keep the golem on task and as efficient as possible, a jar of §8Fabrico§0 essentia can be kept nearby. This is optional and is primarily beneficial when crafting will be fairly constant as your golems may become a bit "lethargic" after prolonged time spent crafting. Slackers.
 
+Automagy.research_name.GOLEMWORKBENCH_UPGRADE=Workbench Upgrades
+Automagy.research_text.GOLEMWORKBENCH_UPGRADE=Highest quality craftsgolemship
+Automagy.research_page.GOLEMWORKBENCH_UPGRADE.1=You've built upon the principles of golem upgrades to create a new variety that are applied directly to a golem's workbench, enhancing the crafting ability of any golem attached to it.<BR>Up to four upgrades can be applied at a time, one in each cardinal direction. Multiple upgrades of the same type will stack (except Entropy).<BR>To remove an upgrade, right-click the side it was placed upon while sneaking with a wand.<BR>§lAir:§r The golem can apply its Speed to the crafting process. The faster the golem, the faster it will craft. However, golems using this upgrade
+Automagy.research_page.GOLEMWORKBENCH_UPGRADE.2=are more prone to lethargy than normal, meaning more §8Fabrico§0 is needed to keep them going at full speed.<BR>§lFire:§r The golem can remember an additional recipe. Accordingly, another set of slots becomes available for you to use in the workbench. §lOnly two§r of these upgrades may be applied to a single workbench.<BR>§lEarth:§r The golem can apply its Strength to the crafting process. Stronger golems craft more quickly. The potential boost isn't as great as the Air upgrade's, but golems affected by it not only aren't more prone to lethargy but will actually have greater endurance.
+Automagy.research_page.GOLEMWORKBENCH_UPGRADE.3=§lEntropy:§r Recipes will be treated as shape patterns rather than exact instructions. Whatever item is in the first of the bottom slots will, when encountered in the recipe, be considered a placeholder. The golem will check each of the other items the workbench contains and determine whether substituting one for the placeholder would yield one of the products it has been told to make.<BR>For instance, putting a stick in one recipe slot, wool in another, and placing a stick in the left-most container slot could allow a single golem to craft all colors of wool if provided with the required dye.<BR>Fuzzy logic comes at a price, however. Golems using this upgrade are much more prone to lethargy.
+
 Automagy.research_name.AMNESIASTONE=Amnesiac's Stone
 Automagy.research_text.AMNESIASTONE=Fuhgeddaboudit!
 Automagy.research_page.AMNESIASTONE.1=Your research on suppressing the minds of golems has led you to another interesting use for an Entropy-imbued crystalline brain: Driving memories - experience, shall we say - from the human mind. This may be useful in conjunction with a nearby §lBrain in a Jar§r.<BR>Contact with this stone will quickly drain experience points. A right-click drains one level. Sneaking while clicking drains five. Standing on top of the stone quickly drains all levels.<BR>The stone also has a useful effect on brains in jars. If a jar is placed above it, then a shift-right-click on the jar with an empty hand causes
@@ -444,6 +456,10 @@ Automagy.tip.creativeTool.0=Usage: Craft with a golem
 Automagy.tip.enderDisjunction=Splinches nearby endermen
 Automagy.tip.focusCrafting.stored1=(holding 1 stack)
 Automagy.tip.focusCrafting.stored=(holding %s stacks)
+Automagy.tip.golemWorkbenchUpgrade.0=Speed-boosted Crafting
+Automagy.tip.golemWorkbenchUpgrade.1=Additional Recipe
+Automagy.tip.golemWorkbenchUpgrade.3=Strength-boosted Crafting
+Automagy.tip.golemWorkbenchUpgrade.5=Multipurpose Recipes
 
 # GUI
 Automagy.gui.visReader.mode.col=Mode
