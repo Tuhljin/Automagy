@@ -125,7 +125,7 @@ fluid.fluidMushroom=Mushroom Soup
 fluid.fluidVishroom=Vishroom Soup
 
 # Entities
-entity.Automagy.XPOrbSuppressed.name=Amnesiac's Experience Orb
+entity.Automagy.XPOrbSuppressed.name=Forgotten Experience
 entity.Automagy.EntityItemDelayedFall.name=Hovering Item
 
 # Research
@@ -184,6 +184,7 @@ Automagy.research_name.REDCRYSTAL_MIRRORBOUND=Mercurial Redcrystal
 Automagy.research_text.REDCRYSTAL_MIRRORBOUND=Thaumaturge's Heliograph
 Automagy.research_page.REDCRYSTAL_MIRRORBOUND.1=Now that you are able to tap into the strange realm found through magic mirrors to create far-flung networks of production and transport, you need a way to intelligently control their disparate elements. Why waste resources creating and sending items through mirrors that are just going to pile up on a full chest and decay?<BR>By adapting a resonating crystal to the seemingly-erratic oscillations of the void between worlds, the resulting mercurial redcrystal can send its signal through a linked mirror in the vicinity to be picked up by another mercurial redcrystal on the other side.
 Automagy.research_page.REDCRYSTAL_MIRRORBOUND.2=In order to send or receive a signal, the device must be linked to a mirror. Do this by holding it in your hand and right-clicking on the mirror. It must then be placed within eight blocks of that location. Of course, you'll need to link another redcrystal to the corresponding mirror on the other end.
+Automagy.research_page.REDCRYSTAL_MIRRORBOUND.MIRRORESSENTIA=§l      §nEssentia Mirror§r<BR>Mercurial redcrystal can be linked to an essentia mirror instead of a standard magic mirror. This would probably be the more efficient option unless magic mirrors are going to be in use anyway.
 
 Automagy.research_name.GREEDYCHEST=Greedy Chest
 Automagy.research_text.GREEDYCHEST=Greed is good
@@ -379,8 +380,8 @@ Automagy.research_page.GOLEMWORKBENCH_UPGRADE.3=§lEntropy:§r Recipes will be t
 
 Automagy.research_name.AMNESIASTONE=Amnesiac's Stone
 Automagy.research_text.AMNESIASTONE=Fuhgeddaboudit!
-Automagy.research_page.AMNESIASTONE.1=Your research on suppressing the minds of golems has led you to another interesting use for an Entropy-imbued crystalline brain: Driving memories - experience, shall we say - from the human mind. This may be useful in conjunction with a nearby §lBrain in a Jar§r.<BR>Contact with this stone will quickly drain experience points. A right-click drains one level. Sneaking while clicking drains five. Standing on top of the stone quickly drains all levels.<BR>The stone also has a useful effect on brains in jars. If a jar is placed above it, then a shift-right-click on the jar with an empty hand causes
-Automagy.research_page.AMNESIASTONE.2=all the stored experience to be dropped at once.<BR>If a comparator is positioned to read from the stone, it will output a signal which increases in strength as the brain above it fills up on experience.
+Automagy.research_page.AMNESIASTONE.1=Your research on suppressing the minds of golems has led you to another interesting use for an Entropy-imbued crystalline brain: Driving memories - experience, shall we say - from the human mind. This may be useful in conjunction with a nearby §lBrain in a Jar§r.<BR>Contact with this stone will quickly drain experience points. A right-click drains one level. Sneaking while clicking drains five. Standing on top of the stone rapidly drains all levels.<BR>The stone also has a useful effect on brains in jars. If a jar is placed above it, then a shift-right-click on the jar with an empty hand causes
+Automagy.research_page.AMNESIASTONE.2=all the stored experience to be dropped at once.<BR>If a comparator is positioned to read from the stone, it will output a signal which increases in strength as the brain above it fills up on experience.<BR>Bottles o' enchanting thrown on top of the stone are also drained. The amount retrieved is above the average that breaking a bottle would yield, making this a good way to maximize your experience gain.
 
 Automagy.research_name.MOBLURE=Siren's Lure
 Automagy.research_text.MOBLURE=Burning desire
