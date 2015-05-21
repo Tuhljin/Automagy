@@ -17,7 +17,8 @@ public class SidedInventariumContentsProvider implements IInventariumContentsPro
 
 	@Override
 	public int getSlotCount(TileEntity te, int setID) {
-		return ((ISidedInventory) te).getSizeInventory();
+		int[] slots = ((ISidedInventory) te).getAccessibleSlotsFromSide(ACCESS_SIDE);
+		return slots == null ? 0 : slots.length;
 	}
 
 	@Override
