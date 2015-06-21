@@ -49,6 +49,7 @@ item.golemWorkbenchUpgrade.2.name=Workbench Upgrade: Water
 item.golemWorkbenchUpgrade.3.name=Workbench Upgrade: Earth
 item.golemWorkbenchUpgrade.4.name=Workbench Upgrade: Order
 item.golemWorkbenchUpgrade.5.name=Workbench Upgrade: Entropy
+item.phialExtra.name=Phial of Enchanter's Concentrate
 
 item.bucketMushroom.name=Bucket of Mushroom Soup
 item.bucketVishroom.name=Bucket of Vishroom Soup
@@ -123,6 +124,8 @@ tile.blockNetherRuneMob.12.name=Runed Obsidian (Slime)
 tile.blockNetherRuneMob.13.name=Runed Obsidian (Bat)
 tile.blockNetherRuneMob.14.name=Runed Obsidian (Wisp)
 tile.blockAmnesiac.name=Amnesiac's Stone
+tile.blockXPStone.name=Soul Stone
+tile.blockXPJar.name=Jar of Enchanter's Concentrate
 tile.blockMobLure.name=Siren's Lure
 tile.blockDimensionLure.name=Dimensional Lure
 tile.blockTranslucent.0.name=Glowing Amber
@@ -401,7 +404,7 @@ Automagy.research_page.GOLEMWORKBENCH_UPGRADE.3=§lEntropy:§r Recipes will be t
 Automagy.research_name.AMNESIASTONE=Amnesiac's Stone
 Automagy.research_text.AMNESIASTONE=Fuhgeddaboudit!
 Automagy.research_page.AMNESIASTONE.1=Your research on suppressing the minds of golems has led you to another interesting use for an Entropy-imbued crystalline brain: Driving memories - experience, shall we say - from the human mind. This may be useful in conjunction with a nearby §lBrain in a Jar§r.<BR>Contact with this stone will quickly drain experience points. A right-click drains one level. Sneaking while clicking drains five. Standing on top of the stone rapidly drains all levels.<BR>The stone also has a useful effect on brains in jars. If a jar is placed above it, then a shift-right-click on the jar with an empty hand causes
-Automagy.research_page.AMNESIASTONE.2=all the stored experience to be dropped at once.<BR>If a comparator is positioned to read from the stone, it will output a signal which increases in strength as the brain above it fills up on experience.<BR>Bottles o' enchanting thrown on top of the stone are also drained. The amount retrieved is above the average that breaking a bottle would yield, making this a good way to maximize your experience gain.
+Automagy.research_page.AMNESIASTONE.2=all the stored experience to be dropped at once.<BR>If a comparator is positioned to read from the stone, it will output a signal which increases in strength as the brain above it fills up on experience.<BR>Bottles o' enchanting thrown on top of the stone are also drained. The amount retrieved is above the average that breaking a bottle would yield, making this a good way to maximize your experience gain.<BR>There may be other items can you drain this way as well.
 
 Automagy.research_name.MOBLURE=Siren's Lure
 Automagy.research_text.MOBLURE=Burning desire
@@ -475,6 +478,18 @@ Automagy.research_text.ENTROPICREFINING=Turn it up to eleven
 Automagy.research_page.ENTROPICREFINING.1=The shards obtained from infused stone contain only a fraction of the magic found within the ore. With some careful adjustments to the entropic processing procedure, you should be able to extract more of that potential from the stone than normal, albeit in sliver form.
 # More from the sum of its parts
 
+Automagy.research_name.XPSTONE=Soul Stone
+Automagy.research_text.XPSTONE=Total recall
+Automagy.research_page.XPSTONE.1=The brain in a jar has a rather limited capacity for stored experience. (This shouldn't be a surprise, given where you found the key ingredient.) While the Amnesiac's Stone helps to extract those memories, it cannot make room for the new without losing the old. To work around this issue, you have created a new type of stone.<BR>When a block of §lSoul Stone§r is placed next to an Amnesiac's Stone which is beneath a brain in a jar, then experience will be drained from the brain, seeping into the soul stone.<BR>Should the stone contain more experience than the brain above, the
+Automagy.research_page.XPSTONE.2=Amnesiac's Stone will begin working in the other direction, pulling from the soul stone until the brain can hold no more.<BR>This simple setup is all you need to increase the effective capacity of your jarred brains, but the soul stones, too, will eventually be filled and, on their own, they don't solve the portability issue. Breaking one destroys a portion of the stored experience and drops the rest. Fortunately, more can be done.<BR>Soul stones are, in a sense, porous. Memories slowly permeate the stone which acts as a filter of sorts, concentrating them as they flow.<BR>Eventually, the essence is condensed enough to be held in a more
+Automagy.research_page.XPSTONE.3=convenient container. If an empty, unlabeled §lwarded jar§r is placed below the stone (within a block or two - further down and the fluid loses its potency), then "enchanter's concentrate" will drip into it. This jar can then be safely moved or you may use it to fill §lphials§r from which you may drink.<BR>But be aware, unless a solid block prevents this, liquid will slowly drip from the soul stone even without a jar to catch it. Needless to say, this is quite wasteful.<BR>Note that an item grate directly below allows the concentrate to pass through when it is open. That or a piston (for example) could help regulate when the enchanter's concentrate should fall from the stone.
+Automagy.research_page.XPSTONE.4=A comparator can be used to see how full a soul stone is. A comparator reading from an Amnesiac's Stone with attached soul stones will evaluate the entire structure's capacity, not just the brain in a jar's. (If you want only the brain's, you can point the comparator directly at it.)<BR>§lGlass bottles§r can also be filled from the jar but they are unable to preserve the stability and density of the liquid, which means they not only hold much less but they are also unsafe to drink from directly. Further, a phial can be used to refill a jar but a bottle cannot as the liquid is no longer quite the same.
+
+Automagy.research_name.ADVNODEJAR=Advanced Node Jarring
+Automagy.research_text.ADVNODEJAR=Both more and less jarring, if you think about it
+Automagy.research_page.ADVNODEJAR.1=You have finally found a way to jar nodes without damaging them. Utilizing your breakthroughs in warding magic, you can construct the jar in so stable a fashion that the normal pressures exerted by the process are minimized to levels where the node is guaranteed to remain unscathed throughout.<BR>Build the structure around the node as normal but replace the ordinary glass with warded glass and the planks with silverwood logs. Next, §lward the logs§r using a §lWarding Focus§r.<BR>Finally, right-click on one of the warded logs with a wand (or similar tool) that has no focus equipped. If
+Automagy.research_page.ADVNODEJAR.2=you have the requisite vis, the node will immediately be jarred, safe and sound.
+
 # Chat messages
 Automagy.chat.newVersionAvailable=Automagy v%s is now available. (You are running v%s.)
 Automagy.chat.newVersionLink=["Click ",{"text":"[this link]","color":"aqua","hoverEvent":{"action":"show_text","value":{"text":"Click to go to Automagy's webpage","color":"aqua"}},"clickEvent":{"action":"open_url","value":"http://everburningtorch.com/minecraft/automagy/"}}," for more info and downloads."]
@@ -529,6 +544,8 @@ Automagy.tip.golemWorkbenchUpgrade.0=Speed-boosted Crafting
 Automagy.tip.golemWorkbenchUpgrade.1=Additional Recipe
 Automagy.tip.golemWorkbenchUpgrade.3=Strength-boosted Crafting
 Automagy.tip.golemWorkbenchUpgrade.5=Multipurpose Recipes
+Automagy.tip.jarXP=%s levels (%s xp)
+Automagy.tip.phialXP=A swig of enlightenment
 
 # GUI
 Automagy.gui.visReader.mode.col=Mode
@@ -673,3 +690,4 @@ wailaTip.golem.taskFetch=Fetching Requested Items
 # wailaTip.golem.taskFetch.specific=Fetching %s %s
 wailaTip.tankFluidData=%s / %s mB of %s
 wailaTip.tankFluidDataEmpty=0 / %s mB
+wailaTip.xp=%s levels (%s xp)
