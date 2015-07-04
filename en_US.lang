@@ -20,6 +20,7 @@ item.crystalBrain.2.name=Crystalline Brain: Water
 item.crystalBrain.3.name=Crystalline Brain: Earth
 item.crystalBrain.4.name=Crystalline Brain: Order
 item.crystalBrain.5.name=Crystalline Brain: Entropy
+item.ingredient.0.name=Conflux Disc
 item.horizontal.0.name=Shattered Avarice Pearl
 item.edible.0.name=Mercatus Amalgam
 item.foodstuff.0.name=Vishroom Stew
@@ -69,6 +70,7 @@ tile.blockHourglass.name=Hourglass
 tile.blockHourglassMagic.name=Magic Hourglass
 tile.blockGreedyChest.name=Greedy Chest
 tile.blockEagerChest.name=Eager Chest
+tile.blockTenaciousChest.name=Tenacious Chest
 tile.blockHungryMaw.name=Hungry Maw
 tile.blockFinicalMaw.name=Finical Maw
 tile.blockPhenomenon.name=Phenomenon
@@ -136,6 +138,7 @@ tile.blockFluidMilk.name=Milk
 tile.blockFluidMushroom.name=Mushroom Soup
 tile.blockFluidVishroom.name=Vishroom Soup
 tile.blockBoiler.name=Alchemical Boiler
+tile.blockMirrorAlt.0.name=Melding Mirror
 
 # Fluids
 fluid.fluidMilk=Milk
@@ -244,6 +247,11 @@ Automagy.research_name.EAGERCHEST=Eager Chest
 Automagy.research_text.EAGERCHEST=A chest that doesn't wait to be filled
 Automagy.research_page.EAGERCHEST.1=You've managed to create a variation upon the greedy chest that focuses its attention on the person opening it instead of its neighbors. By tempering the pearl used in its construction, the Eager Chest is imbued with the desire to "trade" rather than steal. It is still rather impatient about this and so will immediately attempt to give and take items when opened.<BR>You've intentionally left some holes in its senses, allowing you to §lsneak§r up to it when you want to look inside without triggering a trade. Additionally, the chest won't trade with people it doesn't recognize, which at first would be anyone but the person who placed it,
 Automagy.research_page.EAGERCHEST.2=but others can introduce themselves by use of a wand.<BR>A wand is also necessary in order to tell the chest what should be considered a proper trade. By default, a certain level of greed slips through, as it will take anything it senses is valuable while giving only things it doesn't value - although in truth, that is how it works even with runic whitelists or blacklists installed. The difference is only that those lists skew its evaluations.<LINE>On another note, you suspect that this amalgam you've concocted will be valued highly by pechs.
+
+Automagy.research_name.TENACIOUSCHEST=Tenacious Chest
+Automagy.research_text.TENACIOUSCHEST=A chest that won't let go
+Automagy.research_page.TENACIOUSCHEST.1=Now that you've mastered imbuing chests with greed, creating a simple new variant was a straightforward task.<BR>The tenacious chest values its contents, as you'd imagine any chest might, but this one has the ability to prevent items from being entirely taken away. You can still reach in and take out whatever you like, but golems, hoppers, and most other automation methods will be unable to remove §lthe last stack§r of any given item.<BR>The chest will attempt to separate one item of each type into their own stacks. It might feel it can hold onto them better this way, but the true
+Automagy.research_page.TENACIOUSCHEST.2=purpose for this behavior is to allow automation to have access to as many items as possible while still leaving one behind.
 
 Automagy.research_name.ENDERDISJUNCTION=Ender Disjunction
 Automagy.research_text.ENDERDISJUNCTION=Splinch 'em
@@ -489,6 +497,12 @@ Automagy.research_name.ADVNODEJAR=Advanced Node Jarring
 Automagy.research_text.ADVNODEJAR=Both more and less jarring, if you think about it
 Automagy.research_page.ADVNODEJAR.1=You have finally found a way to jar nodes without damaging them. Utilizing your breakthroughs in warding magic, you can construct the jar in so stable a fashion that the normal pressures exerted by the process are minimized to levels where the node is guaranteed to remain unscathed throughout.<BR>Build the structure around the node as normal but replace the ordinary glass with warded glass and the planks with silverwood logs. Next, §lward the logs§r using a §lWarding Focus§r.<BR>Finally, right-click on one of the warded logs with a wand (or similar tool) that has no focus equipped. If
 Automagy.research_page.ADVNODEJAR.2=you have the requisite vis, the node will immediately be jarred, safe and sound.
+
+Automagy.research_name.MIRRORINPUT=Melding Mirror
+Automagy.research_text.MIRRORINPUT=Crossing the streams
+Automagy.research_page.MIRRORINPUT.1=Magic mirrors are a wonderful way to get items from here to there but they can only be linked in pairs. A system needing numerous mirrors to output items from various locations at a single destination can be prohibitively expensive. Your new insights into the void, along with void metal's unique properties, can help with this.<BR>The §lMelding Mirror§r is a special "one-way" mirror which takes items in but won't spit them out. Rather than linking it and another mirror together, a §lcrystalline eye§r is inserted into its frame (by right-click). If the eye has been set to watch a location with a magic mirror (anywhere, in any dimension)
+Automagy.research_page.MIRRORINPUT.2=and the target mirror is properly paired with another, then the melding mirror will find the transdimensional stream connecting the paired mirrors together and, by way of a sort of mystical confluence, use it to deliver items to the target location.<BR>To remove a crystalline eye from the mirror's socket, right-click on it with your wand while sneaking.<LINE>The key component allowing mirrors to manipulate connections across the void like this is the §lconflux disc§r. The disc takes up much of the mirror's frame and its void metal origins allow it to bond with the glass in a way other metals cannot so it may adapt as necessary to
+Automagy.research_page.MIRRORINPUT.3=intercept whatever chaotic path the streams may take in the void.<BR>A conflux disc is fairly costly to create initially, but from one, many more can be produced relatively easily. For this reason, it is advisable to always hold one in reserve.
 
 # Chat messages
 Automagy.chat.newVersionAvailable=Automagy v%s is now available. (You are running v%s.)
