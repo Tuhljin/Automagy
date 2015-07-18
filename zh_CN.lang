@@ -20,6 +20,7 @@ item.crystalBrain.2.name=水晶之脑:水
 item.crystalBrain.3.name=水晶之脑:地
 item.crystalBrain.4.name=水晶之脑:秩序
 item.crystalBrain.5.name=水晶之脑:混沌
+item.ingredient.0.name=汇流圆盘
 item.horizontal.0.name=贪婪珍珠碎片
 item.edible.0.name=莫卡特斯汞剂
 item.foodstuff.0.name=毒菇汤
@@ -49,6 +50,7 @@ item.golemWorkbenchUpgrade.2.name=工作台升级:水
 item.golemWorkbenchUpgrade.3.name=工作台升级:地
 item.golemWorkbenchUpgrade.4.name=工作台升级:秩序
 item.golemWorkbenchUpgrade.5.name=工作台升级:混沌
+item.phialExtra.name=玻璃安瓿(附魔精华液)
 
 item.bucketMushroom.name=桶装蘑菇汤
 item.bucketVishroom.name=桶装毒菇汤
@@ -68,6 +70,7 @@ tile.blockHourglass.name=沙漏
 tile.blockHourglassMagic.name=魔法沙漏
 tile.blockGreedyChest.name=贪婪箱子
 tile.blockEagerChest.name=易物箱子
+tile.blockTenaciousChest.name=吝物箱子
 tile.blockHungryMaw.name=饕餮之洞
 tile.blockFinicalMaw.name=深究之洞
 tile.blockPhenomenon.name=奇迹
@@ -100,14 +103,14 @@ tile.blockNetherRune.1.name=符文黑曜石(炽海)
 tile.blockNetherRune.2.name=符文黑曜石(晶体)
 tile.blockNetherRune.3.name=符文黑曜石(光明)
 tile.blockNetherRune.4.name=符文黑曜石(灵魂)
-tile.blockNetherRune.5.name=符文黑曜石(Pebble)
+tile.blockNetherRune.5.name=符文黑曜石(砂砾)
 tile.blockNetherRune.6.name=符文黑曜石(迅捷)
 tile.blockNetherRune.8.name=符文黑曜石(岩石)
 tile.blockNetherRune.9.name=符文黑曜石(炽海)
 tile.blockNetherRune.10.name=符文黑曜石(晶体)
 tile.blockNetherRune.11.name=符文黑曜石(光明)
 tile.blockNetherRune.12.name=符文黑曜石(灵魂)
-tile.blockNetherRune.13.name=符文黑曜石 (Pebble)
+tile.blockNetherRune.13.name=符文黑曜石 (砂砾)
 tile.blockNetherRuneMob.0.name=符文黑曜石(僵尸)
 tile.blockNetherRuneMob.1.name=符文黑曜石(烈焰人)
 tile.blockNetherRuneMob.2.name=符文黑曜石(恶魂)
@@ -123,6 +126,8 @@ tile.blockNetherRuneMob.12.name=符文黑曜石(史莱姆)
 tile.blockNetherRuneMob.13.name=符文黑曜石(蝙蝠)
 tile.blockNetherRuneMob.14.name=符文黑曜石(精灵)
 tile.blockAmnesiac.name=遗忘之石
+tile.blockXPStone.name=灵魂之石
+tile.blockXPJar.name=罐装附魔精华液
 tile.blockMobLure.name=塞壬之饵
 tile.blockDimensionLure.name=异界之饵
 tile.blockTranslucent.0.name=闪耀琥珀方块
@@ -133,6 +138,7 @@ tile.blockFluidMilk.name=牛奶
 tile.blockFluidMushroom.name=蘑菇汤
 tile.blockFluidVishroom.name=毒菇汤
 tile.blockBoiler.name=炼金锅炉
+tile.blockMirrorAlt.0.name=聚合魔境
 
 # Fluids
 fluid.fluidMilk=牛奶
@@ -241,6 +247,11 @@ Automagy.research_name.EAGERCHEST=易物箱子
 Automagy.research_text.EAGERCHEST=一个急着被装满的箱子
 Automagy.research_page.EAGERCHEST.1=你成功在贪婪箱子上做了些改进,将其作用对象转为开箱子的人而不是邻近的容器.通过缓和所使用的珍珠,易物箱子被注入了对"交易"而不是窃取的渴望.它是如此的迫不及待以至于一被打开就会试着交易物品.<BR>不过你事先准备了一些漏洞,让你能在§l潜行§r时直接查看箱内的物品而不是交易.另外,箱子不会与它无法识别的人交易,默认为放置者,
 Automagy.research_page.EAGERCHEST.2=但其他人也能用法杖来将自己添加进识别对象.<BR>法杖也可以用于设置箱子所要交易的物品.默认情况下,它会取走一切它觉得有价值的东西而给你它觉得无价值的那些-事实上,装上了符文白名单和黑名单也是如此的,不同之处就在于这些名单改变了它的评估.
+
+Automagy.research_name.TENACIOUSCHEST=吝物箱子
+Automagy.research_text.TENACIOUSCHEST=一个不会放开物品的箱子
+Automagy.research_page.TENACIOUSCHEST.1=你已经掌握了如何给箱子注入贪婪的念头,在此之上制作一个新的箱子就显得轻而易举了.<BR>吝物箱子会评估其中物品的价值,阻止它们被取出.你仍然可以直接打开并随意的取出物品,但傀儡,漏斗以及其他大部分自动化的方法都无法取出§l最后一叠§r的指定物品.<BR>箱子会试着从每种物品中分离出一个.或许它觉得这样才能保有这些物品,
+Automagy.research_page.TENACIOUSCHEST.2=但这种行为的真正目的却是:让自动化在保留余量的前提下尽可能地存取其中的物品.
 
 Automagy.research_name.ENDERDISJUNCTION=影裂指环
 Automagy.research_text.ENDERDISJUNCTION=绽裂吧,千本影
@@ -353,6 +364,7 @@ Automagy.research_page.INVENTARIUM_EXTRA.1=将库存核心周围的普通书架�
 Automagy.research_name.INVENTARIUM_POINTER=记录之眼
 Automagy.research_text.INVENTARIUM_POINTER=另一种观点
 Automagy.research_page.INVENTARIUM_POINTER.1=记录桌的限制就在于它只能检测一种类型的容器,且容器必须被放置在其后.记录之眼就摆脱了这个约束.<BR>它使用§l水晶之眼§r指向邻近的容器来设置类型.一次最多能使用5个眼睛.<BR>使用方法很简单,将它放在记录桌的上方再用准备好的水晶之眼右击即可.空手右击则可取下上一次装入的水晶之眼.
+Automagy.research_page.INVENTARIUM_POINTER.2=right-click it with the crystalline eyes you have prepared. Right-click with an empty hand to remove the last eye inserted.
 
 Automagy.research_name.INVENTARIUM_DELIVERY=供与求
 Automagy.research_text.INVENTARIUM_DELIVERY=特种配送
@@ -475,6 +487,24 @@ Automagy.research_text.ENTROPICREFINING=变成十一个
 Automagy.research_page.ENTROPICREFINING.1=从蕴魔石获取的碎片只是矿物中魔力的一部分.经过对该处理过程的一些细微调整,你就能从原矿中提取出更多潜在的魔力,虽然是以裂片的形式.
 # More from the sum of its parts
 
+Automagy.research_name.XPSTONE=灵魂之石
+Automagy.research_text.XPSTONE=我想起来了
+Automagy.research_page.XPSTONE.1=缸中之脑的经验储存容量是有限的.尽管遗忘之石能将这些记忆提取出来,但没法在不损失旧有经验的前提下为新的经验腾出空间.为了解决这一问题,你创造了一种新的石头.<BR>当一块§l灵魂之石§r放置在缸中之脑下端的遗忘之石旁边时,会从脑中抽取经验,存入灵魂之石自身中.<BR>如果石头中储存的经验超过了缸中之脑的量,那么
+Automagy.research_page.XPSTONE.2=遗忘之石就会改变运行的方向,转而从灵魂之石中向缸中之脑输送经验,除非后者被装满.<BR>这个组合就能满足你对于增加缸中之脑储存容量的需求了,但这里的灵魂之石并没有解决便携性的问题.如果直接破坏就会损失一部分储存的经验,掉落剩下的.幸运的是,还有解决的方法.<BR>灵魂之石在某种意义上来说算是多孔的疏松结构.记忆能缓慢渗入石头中,石头起到了类似于滤网的作用,这些经验会随着流动而凝聚起来.<BR>最终,这种精华液将浓缩到足以装入其他的容器.
+Automagy.research_page.XPSTONE.3=在石头的下方放置一个未标签的§l要素罐子§r(一两格以内-再往下的话流体就会失效了),之后"附魔精华液"就会滴入其中.这个罐子可以安全地转移到别处,或用§l安瓿§r装取其中的精华液以饮用.<BR>要注意的是,除非有固体方块的阻隔,即便没有罐子流体也会缓慢地从灵魂之石中滴落.不得不说这样做实在是浪费.<BR>倘若下方直接放置了一个物品格栅,那么它在打开时能让浓缩液流出.你也可以用活塞(举例)来控制附魔精华液是否能从石头流出.
+Automagy.research_page.XPSTONE.4=比较器能检测灵魂之石的经验储量.如果比较器读取的是遗忘之石,那么它就会检测整个结构的容量,而不仅仅是缸中之脑的.(如果你只想要检测缸中之脑的储量,直接用比较器读取即可.)<BR>§l玻璃瓶§r也能用于从罐中取出精华液,但它无法保持流体的稳定性和密度,这就意味着它们不仅装取更少的量,在饮用时也不太安全.其次,安瓿能将流体重新倒回罐中而玻璃瓶则不能,因为流体本身已经发生了变化.
+
+Automagy.research_name.ADVNODEJAR=高级缸中节点
+Automagy.research_text.ADVNODEJAR=Both more and less jarring, if you think about it
+Automagy.research_page.ADVNODEJAR.1=最终你找到了将节点无损装罐的方法.利用你在守护魔法研究上的突破,你就能稳定化装罐的过程中,使压力最小化以保证节点不受损伤.<BR>围绕节点搭建的结构保持不变,只是所用的普通玻璃和木台阶被替换成了守卫者玻璃和银树原木.接着,对§l原木§r使用§l守护核心§r.<BR>最后,再用没有安装核心的法杖(或类似的工具)右击守护原木之一.
+Automagy.research_page.ADVNODEJAR.2=如果你的要素魔力充足,那么节点就会立即被装罐,真是安全又可靠.
+
+Automagy.research_name.MIRRORINPUT=聚合魔境
+Automagy.research_text.MIRRORINPUT=Crossing the streams
+Automagy.research_page.MIRRORINPUT.1=尽管魔镜很适合将物品从一处送到另一处,但它们只能成对地连接.一个系统如果使用多个魔镜从不同的地方将物品输出到同一处的话,那么成本也未免太高了.你对于虚空的了解和虚空金属性质的研究或许能起到些帮助.<BR>§l聚合魔镜§r是一面特制的"单向"镜子,它只能接收而不能吐出物品.若要将它连接到其他的镜子,你还需要给其镶上一个§l水晶之眼§r(右击).如果水晶之眼指向的位置是已经配对过的魔镜的话(任何世界的任何位置)
+Automagy.research_page.MIRRORINPUT.2=聚合魔镜就会寻找联系着配对魔镜的跨维细流,然后通过汇流点将物品传送到目标位置.<BR>在潜行时用法杖右击即可移除魔镜上的水晶之眼.<LINE>让魔镜能在虚空中利用连接点的关键部件就是§l汇流圆盘§r.圆盘本身占据了魔镜的大部分框架,制作所用的虚空金属也让它能以一种特殊的方式与玻璃结合,或许这也能帮助它应付虚空那些中充满了混沌的细流.<BR>
+Automagy.research_page.MIRRORINPUT.3=汇流圆盘初始的制作成本较高,但只要有了一个,持续生产就不难了.因此建议保留一个以作备用.
+
 # Chat messages
 Automagy.chat.newVersionAvailable=自动化魔法有 v%s 的新版本了. (当前运行的是 v%s.)
 Automagy.chat.newVersionLink=["点此 [",{"text":"link","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to go to Automagy's webpage","color":"green"}},"clickEvent":{"action":"open_url","value":"http://everburningtorch.com/minecraft/automagy/"}},"] 查看详情和下载."]
@@ -529,6 +559,8 @@ Automagy.tip.golemWorkbenchUpgrade.0=傀儡速度提升合成速度
 Automagy.tip.golemWorkbenchUpgrade.1=额外合成配方
 Automagy.tip.golemWorkbenchUpgrade.3=傀儡力量提升合成速度
 Automagy.tip.golemWorkbenchUpgrade.5=通用合成配方
+Automagy.tip.jarXP=%s 级 (%s xp)
+Automagy.tip.phialXP=A swig of enlightenment
 
 # GUI
 Automagy.gui.visReader.mode.col=模式
@@ -553,8 +585,8 @@ Automagy.gui.hourglassMagic.signal.name=红石信号:
 Automagy.gui.hourglassMagic.signal.0=禁用
 Automagy.gui.hourglassMagic.signal.1=脉冲
 Automagy.gui.hourglassMagic.signal.2=交替
-Automagy.gui.hourglassMagic.signal.3=Constant
-Automagy.gui.hourglassMagic.signal.4=Negative Pulse
+Automagy.gui.hourglassMagic.signal.3=持续
+Automagy.gui.hourglassMagic.signal.4=反脉冲
 Automagy.gui.hourglassMagic.sandFlip.name=重置时:
 Automagy.gui.hourglassMagic.sandFlip.0=标准
 Automagy.gui.hourglassMagic.sandFlip.1=沙子移至顶端
@@ -596,8 +628,8 @@ Automagy.gui.filter.ignoreNBT=忽略NBT
 Automagy.gui.filter.byName=包含:
 Automagy.gui.filter.textFilterTooltip=用于过滤左侧设置的物品\n你可通过物品名筛选.使用\n星标(*)来在指定位置过滤\n字符.(确保使用*作为开头\n和结束字符除非你只想匹配\n以该文本开头或结尾的名字.)
 
-Automagy.gui.eagerChest.give=Give
-Automagy.gui.eagerChest.take=Take
+Automagy.gui.eagerChest.give=给
+Automagy.gui.eagerChest.take=取
 Automagy.gui.eagerChest.trade=打开时与我交换
 Automagy.gui.eagerChest.quantityResult.giveWhitelist.1=填充访问者背包至
 Automagy.gui.eagerChest.quantityResult.giveWhitelist.2=指定数量
@@ -673,3 +705,4 @@ wailaTip.golem.taskFetch=读取请求的物品中
 # wailaTip.golem.taskFetch.specific=Fetching %s %s
 wailaTip.tankFluidData=%s / %s mB %s
 wailaTip.tankFluidDataEmpty=0 / %s mB
+wailaTip.xp=%s 级 (%s xp)
