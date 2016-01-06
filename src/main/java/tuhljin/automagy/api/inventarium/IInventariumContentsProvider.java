@@ -28,9 +28,9 @@ public interface IInventariumContentsProvider {
 	public int getSlotCount(TileEntity te, int setID);
 
 	/** Return an array of item stacks specifying the contents of the container. All contents specified will be counted,
-	 *  even if the return from getSizeInventory is smaller than the length of this array. Stack sizes larger than the
-	 *  normal maximum are allowed. Any items of the same type will be added together automatically (so giving two
-	 *  stacks of 64 cobblestone will result in 128 cobblestone being recorded).
+	 *  even if the return from getSlotCount is smaller than the length of this array. Stack sizes larger than the normal
+	 *  maximum are allowed. Any items of the same type will be added together automatically (so giving two stacks of 64
+	 *  cobblestone will result in 128 cobblestone being recorded).
 	 *  
 	 *  See the getSlotCount method's description of setID for information on that parameter. */
 	public ItemStack[] getContents(TileEntity te, int setID);
