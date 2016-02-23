@@ -11,7 +11,7 @@ import tuhljin.automagy.api.inventarium.IInventariumContentsProvider;
 
 /** Automagy API
  *  Author: Tuhljin
- *  Revision: 2
+ *  Revision: 3
  *  */
 
 public class AutomagyAPI {
@@ -19,6 +19,10 @@ public class AutomagyAPI {
 	/** Blocks in this list will be ignored by Unseen Scribes, preventing their use by the Inventarium.
 	 *  (Initially populated based on Automagy's config file but you can add to it directly if needed.) */
 	public static ArrayList<Block> invContainerBlacklist = new ArrayList<Block>();
+
+	/** Blocks in this list will increase maximum slot count of the Inventarium as if they were standard bookshelves.
+	 *  (Initially populated based on Automagy's config file but you can add to it directly if needed.) */
+	public static ArrayList<Block> invOtherBookshelves = new ArrayList<Block>();
 
 
 	public static Map<Integer, List<IInventariumContentsProvider>> invContentsProviders = new TreeMap<Integer, List<IInventariumContentsProvider>>();
