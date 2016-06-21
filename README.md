@@ -5,7 +5,7 @@ This place exists to allow contribution to Automagy's localization files, submit
 
 **This branch is for the _Automagy 2.x_ versions for Minecraft 1.8.9 (Thaumcraft 5).**
 
-Other branches: **[_Automagy 0.x_ for Minecraft 1.8.10 (Thaumcraft 4.2)](https://github.com/Tuhljin/Automagy).**
+Other branches: **[_Automagy 0.x_ for Minecraft 1.7.10 (Thaumcraft 4.2)](https://github.com/Tuhljin/Automagy).**
 
 ## Contributing
 
